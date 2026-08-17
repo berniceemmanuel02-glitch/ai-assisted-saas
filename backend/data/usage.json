@@ -138,5 +138,65 @@
     "userId": "1786952294567",
     "feature": "invoices",
     "count": 5
+  },
+  {
+    "userId": "1786960376649",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786960376649",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786960377673",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786960377673",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786961006204",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786961006204",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786961006892",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786961006892",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786961060135",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786961060135",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786961060730",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786961060730",
+    "feature": "invoices",
+    "count": 5
   }
 ]

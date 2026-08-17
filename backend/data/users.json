@@ -334,5 +334,77 @@
     "password": "$2b$10$o8m6bC2fS4feZiyow00uPebxSvZTa53viVm7IxmS1TQurcp.gHfMC",
     "role": "user",
     "createdAt": "2026-08-17T07:38:14.567Z"
+  },
+  {
+    "id": "1786960376649",
+    "name": "Test User",
+    "email": "test-1786960376458@example.com",
+    "password": "$2b$10$k99XVTJzGZDHZBNaF74PWu/K4UJ2VbBvmYduTny3CSiaQ6tH7qh2W",
+    "role": "user",
+    "createdAt": "2026-08-17T09:52:56.649Z"
+  },
+  {
+    "id": "1786960377454",
+    "name": "Other Test User",
+    "email": "other-1786960377090@example.com",
+    "password": "$2b$10$CTlOqWLSPK2MxhyQuQ6npuE5P9S6cvxOajpKg/3.C04tfSRbflC1i",
+    "role": "user",
+    "createdAt": "2026-08-17T09:52:57.454Z"
+  },
+  {
+    "id": "1786960377673",
+    "name": "Limit Test User",
+    "email": "limit-test-1786960377533@example.com",
+    "password": "$2b$10$S5xhxkqTekF0kv/2Km78Re2TRc4dBPmmhYA9CX1yyRfg/73LJ3VxG",
+    "role": "user",
+    "createdAt": "2026-08-17T09:52:57.673Z"
+  },
+  {
+    "id": "1786961006204",
+    "name": "Test User",
+    "email": "test-1786961006023@example.com",
+    "password": "$2b$10$1FHkyZ4UmE34W0bapVFbS.x87i8KblBvl6fTT/4eyO3qi83XAHcuK",
+    "role": "user",
+    "createdAt": "2026-08-17T10:03:26.204Z"
+  },
+  {
+    "id": "1786961006605",
+    "name": "Other Test User",
+    "email": "other-1786961006442@example.com",
+    "password": "$2b$10$PbM4NI9pG8woUH0ssUS2yOcyFN0C5zSOLOluCtEHtRPcILbkswdHC",
+    "role": "user",
+    "createdAt": "2026-08-17T10:03:26.605Z"
+  },
+  {
+    "id": "1786961006892",
+    "name": "Limit Test User",
+    "email": "limit-test-1786961006715@example.com",
+    "password": "$2b$10$pjjersXROtkAmSl.pPh2ze4Wm7hTwXCsT7gdCjP/Np27F4QFqsJ4m",
+    "role": "user",
+    "createdAt": "2026-08-17T10:03:26.892Z"
+  },
+  {
+    "id": "1786961060135",
+    "name": "Test User",
+    "email": "test-1786961059976@example.com",
+    "password": "$2b$10$VCTszAtLnBUCFoL7Rfhrle2YFwp3280olr/HCelyqus4VxErOzMFS",
+    "role": "user",
+    "createdAt": "2026-08-17T10:04:20.135Z"
+  },
+  {
+    "id": "1786961060500",
+    "name": "Other Test User",
+    "email": "other-1786961060289@example.com",
+    "password": "$2b$10$GH7gWFZKP0MzpI.YX.Xu.eaEakUYc18qF0RrCa5ngXVyhTE6iKvf.",
+    "role": "user",
+    "createdAt": "2026-08-17T10:04:20.500Z"
+  },
+  {
+    "id": "1786961060730",
+    "name": "Limit Test User",
+    "email": "limit-test-1786961060585@example.com",
+    "password": "$2b$10$5KG4fJVXiJOV2EQYgZcHYuslRUqJ76zl6Xu0Grols7qdaFSEENLOe",
+    "role": "user",
+    "createdAt": "2026-08-17T10:04:20.730Z"
   }
 ]

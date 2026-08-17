@@ -1852,5 +1852,368 @@
     "paymentStatus": "pending",
     "issueDate": "2026-08-17T07:38:14.693Z",
     "createdAt": "2026-08-17T07:38:14.693Z"
+  },
+  {
+    "id": "1786960377011",
+    "invoiceNumber": "SINV-MSX22JEB",
+    "userId": "1786960376649",
+    "saleId": "1786960376982",
+    "customerId": "1786960376936",
+    "items": [
+      {
+        "productId": "1786960376971",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "subtotal": 7500,
+    "total": 7500,
+    "paymentStatus": "paid",
+    "issueDate": "2026-08-17T09:52:57.011Z",
+    "createdAt": "2026-08-17T09:52:57.011Z",
+    "paidAt": "2026-08-17T09:52:57.064Z"
+  },
+  {
+    "id": "1786960377710",
+    "invoiceNumber": "SINV-MSX22JXQ",
+    "userId": "1786960377673",
+    "saleId": "1786960377703",
+    "customerId": "1786960377682",
+    "items": [
+      {
+        "productId": "1786960377691",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T09:52:57.710Z",
+    "createdAt": "2026-08-17T09:52:57.710Z"
+  },
+  {
+    "id": "1786960377756",
+    "invoiceNumber": "SINV-MSX22JZ0",
+    "userId": "1786960377673",
+    "saleId": "1786960377748",
+    "customerId": "1786960377682",
+    "items": [
+      {
+        "productId": "1786960377691",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T09:52:57.756Z",
+    "createdAt": "2026-08-17T09:52:57.756Z"
+  },
+  {
+    "id": "1786960377783",
+    "invoiceNumber": "SINV-MSX22JZR",
+    "userId": "1786960377673",
+    "saleId": "1786960377773",
+    "customerId": "1786960377682",
+    "items": [
+      {
+        "productId": "1786960377691",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T09:52:57.783Z",
+    "createdAt": "2026-08-17T09:52:57.783Z"
+  },
+  {
+    "id": "1786960377809",
+    "invoiceNumber": "SINV-MSX22K0H",
+    "userId": "1786960377673",
+    "saleId": "1786960377802",
+    "customerId": "1786960377682",
+    "items": [
+      {
+        "productId": "1786960377691",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T09:52:57.809Z",
+    "createdAt": "2026-08-17T09:52:57.809Z"
+  },
+  {
+    "id": "1786960377860",
+    "invoiceNumber": "SINV-MSX22K1W",
+    "userId": "1786960377673",
+    "saleId": "1786960377826",
+    "customerId": "1786960377682",
+    "items": [
+      {
+        "productId": "1786960377691",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T09:52:57.860Z",
+    "createdAt": "2026-08-17T09:52:57.860Z"
+  },
+  {
+    "id": "1786961006372",
+    "invoiceNumber": "SINV-MSX2G10K",
+    "userId": "1786961006204",
+    "saleId": "1786961006349",
+    "customerId": "1786961006293",
+    "items": [
+      {
+        "productId": "1786961006301",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "subtotal": 7500,
+    "total": 7500,
+    "paymentStatus": "paid",
+    "issueDate": "2026-08-17T10:03:26.372Z",
+    "createdAt": "2026-08-17T10:03:26.372Z",
+    "paidAt": "2026-08-17T10:03:26.423Z"
+  },
+  {
+    "id": "1786961006931",
+    "invoiceNumber": "SINV-MSX2G1G3",
+    "userId": "1786961006892",
+    "saleId": "1786961006925",
+    "customerId": "1786961006903",
+    "items": [
+      {
+        "productId": "1786961006912",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:03:26.931Z",
+    "createdAt": "2026-08-17T10:03:26.931Z"
+  },
+  {
+    "id": "1786961006960",
+    "invoiceNumber": "SINV-MSX2G1GW",
+    "userId": "1786961006892",
+    "saleId": "1786961006952",
+    "customerId": "1786961006903",
+    "items": [
+      {
+        "productId": "1786961006912",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:03:26.960Z",
+    "createdAt": "2026-08-17T10:03:26.960Z"
+  },
+  {
+    "id": "1786961006980",
+    "invoiceNumber": "SINV-MSX2G1HG",
+    "userId": "1786961006892",
+    "saleId": "1786961006975",
+    "customerId": "1786961006903",
+    "items": [
+      {
+        "productId": "1786961006912",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:03:26.980Z",
+    "createdAt": "2026-08-17T10:03:26.980Z"
+  },
+  {
+    "id": "1786961007027",
+    "invoiceNumber": "SINV-MSX2G1IR",
+    "userId": "1786961006892",
+    "saleId": "1786961006995",
+    "customerId": "1786961006903",
+    "items": [
+      {
+        "productId": "1786961006912",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:03:27.027Z",
+    "createdAt": "2026-08-17T10:03:27.027Z"
+  },
+  {
+    "id": "1786961007049",
+    "invoiceNumber": "SINV-MSX2G1JD",
+    "userId": "1786961006892",
+    "saleId": "1786961007043",
+    "customerId": "1786961006903",
+    "items": [
+      {
+        "productId": "1786961006912",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:03:27.049Z",
+    "createdAt": "2026-08-17T10:03:27.049Z"
+  },
+  {
+    "id": "1786961060215",
+    "invoiceNumber": "SINV-MSX2H6K7",
+    "userId": "1786961060135",
+    "saleId": "1786961060208",
+    "customerId": "1786961060187",
+    "items": [
+      {
+        "productId": "1786961060194",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "subtotal": 7500,
+    "total": 7500,
+    "paymentStatus": "paid",
+    "issueDate": "2026-08-17T10:04:20.215Z",
+    "createdAt": "2026-08-17T10:04:20.215Z",
+    "paidAt": "2026-08-17T10:04:20.273Z"
+  },
+  {
+    "id": "1786961060768",
+    "invoiceNumber": "SINV-MSX2H6ZK",
+    "userId": "1786961060730",
+    "saleId": "1786961060760",
+    "customerId": "1786961060741",
+    "items": [
+      {
+        "productId": "1786961060747",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:04:20.768Z",
+    "createdAt": "2026-08-17T10:04:20.768Z"
+  },
+  {
+    "id": "1786961060805",
+    "invoiceNumber": "SINV-MSX2H70L",
+    "userId": "1786961060730",
+    "saleId": "1786961060794",
+    "customerId": "1786961060741",
+    "items": [
+      {
+        "productId": "1786961060747",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:04:20.805Z",
+    "createdAt": "2026-08-17T10:04:20.805Z"
+  },
+  {
+    "id": "1786961060830",
+    "invoiceNumber": "SINV-MSX2H71A",
+    "userId": "1786961060730",
+    "saleId": "1786961060823",
+    "customerId": "1786961060741",
+    "items": [
+      {
+        "productId": "1786961060747",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:04:20.830Z",
+    "createdAt": "2026-08-17T10:04:20.830Z"
+  },
+  {
+    "id": "1786961060862",
+    "invoiceNumber": "SINV-MSX2H726",
+    "userId": "1786961060730",
+    "saleId": "1786961060853",
+    "customerId": "1786961060741",
+    "items": [
+      {
+        "productId": "1786961060747",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:04:20.862Z",
+    "createdAt": "2026-08-17T10:04:20.862Z"
+  },
+  {
+    "id": "1786961060889",
+    "invoiceNumber": "SINV-MSX2H72X",
+    "userId": "1786961060730",
+    "saleId": "1786961060880",
+    "customerId": "1786961060741",
+    "items": [
+      {
+        "productId": "1786961060747",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T10:04:20.889Z",
+    "createdAt": "2026-08-17T10:04:20.889Z"
   }
 ]

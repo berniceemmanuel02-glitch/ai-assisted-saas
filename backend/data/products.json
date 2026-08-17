@@ -367,5 +367,86 @@
     "description": "Product for limit test",
     "createdAt": "2026-08-17T07:38:14.586Z",
     "updatedAt": "2026-08-17T07:38:14.586Z"
+  },
+  {
+    "id": "1786960376875",
+    "userId": "1786960376649",
+    "name": "API Test Product",
+    "price": 500,
+    "description": "A test product",
+    "createdAt": "2026-08-17T09:52:56.875Z",
+    "updatedAt": "2026-08-17T09:52:56.875Z"
+  },
+  {
+    "id": "1786960376971",
+    "userId": "1786960376649",
+    "name": "Sale Test Product",
+    "price": 2500,
+    "description": "Product for sale test",
+    "createdAt": "2026-08-17T09:52:56.971Z",
+    "updatedAt": "2026-08-17T09:52:56.971Z"
+  },
+  {
+    "id": "1786960377691",
+    "userId": "1786960377673",
+    "name": "Limit Product",
+    "price": 100,
+    "description": "Product for limit test",
+    "createdAt": "2026-08-17T09:52:57.691Z",
+    "updatedAt": "2026-08-17T09:52:57.691Z"
+  },
+  {
+    "id": "1786961006272",
+    "userId": "1786961006204",
+    "name": "API Test Product",
+    "price": 500,
+    "description": "A test product",
+    "createdAt": "2026-08-17T10:03:26.272Z",
+    "updatedAt": "2026-08-17T10:03:26.272Z"
+  },
+  {
+    "id": "1786961006301",
+    "userId": "1786961006204",
+    "name": "Sale Test Product",
+    "price": 2500,
+    "description": "Product for sale test",
+    "createdAt": "2026-08-17T10:03:26.302Z",
+    "updatedAt": "2026-08-17T10:03:26.302Z"
+  },
+  {
+    "id": "1786961006912",
+    "userId": "1786961006892",
+    "name": "Limit Product",
+    "price": 100,
+    "description": "Product for limit test",
+    "createdAt": "2026-08-17T10:03:26.912Z",
+    "updatedAt": "2026-08-17T10:03:26.912Z"
+  },
+  {
+    "id": "1786961060167",
+    "userId": "1786961060135",
+    "name": "API Test Product",
+    "price": 500,
+    "description": "A test product",
+    "createdAt": "2026-08-17T10:04:20.167Z",
+    "updatedAt": "2026-08-17T10:04:20.167Z"
+  },
+  {
+    "id": "1786961060194",
+    "userId": "1786961060135",
+    "name": "Sale Test Product",
+    "price": 2500,
+    "description": "Product for sale test",
+    "createdAt": "2026-08-17T10:04:20.194Z",
+    "updatedAt": "2026-08-17T10:04:20.194Z"
+  },
+  {
+    "id": "1786961060747",
+    "userId": "1786961060730",
+    "name": "Limit Product",
+    "price": 100,
+    "description": "Product for limit test",
+    "createdAt": "2026-08-17T10:04:20.747Z",
+    "updatedAt": "2026-08-17T10:04:20.747Z"
   }
 ]

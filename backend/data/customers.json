@@ -408,5 +408,95 @@
     "company": "",
     "createdAt": "2026-08-17T07:38:14.578Z",
     "updatedAt": "2026-08-17T07:38:14.578Z"
+  },
+  {
+    "id": "1786960376840",
+    "userId": "1786960376649",
+    "name": "API Test Customer",
+    "email": "customer@example.com",
+    "phone": "1234567890",
+    "company": "Test Co",
+    "createdAt": "2026-08-17T09:52:56.840Z",
+    "updatedAt": "2026-08-17T09:52:56.840Z"
+  },
+  {
+    "id": "1786960376936",
+    "userId": "1786960376649",
+    "name": "Sale Test Customer",
+    "email": "saletest@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T09:52:56.936Z",
+    "updatedAt": "2026-08-17T09:52:56.936Z"
+  },
+  {
+    "id": "1786960377682",
+    "userId": "1786960377673",
+    "name": "Limit Customer",
+    "email": "limitcustomer@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T09:52:57.682Z",
+    "updatedAt": "2026-08-17T09:52:57.682Z"
+  },
+  {
+    "id": "1786961006252",
+    "userId": "1786961006204",
+    "name": "API Test Customer",
+    "email": "customer@example.com",
+    "phone": "1234567890",
+    "company": "Test Co",
+    "createdAt": "2026-08-17T10:03:26.252Z",
+    "updatedAt": "2026-08-17T10:03:26.252Z"
+  },
+  {
+    "id": "1786961006293",
+    "userId": "1786961006204",
+    "name": "Sale Test Customer",
+    "email": "saletest@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T10:03:26.293Z",
+    "updatedAt": "2026-08-17T10:03:26.293Z"
+  },
+  {
+    "id": "1786961006903",
+    "userId": "1786961006892",
+    "name": "Limit Customer",
+    "email": "limitcustomer@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T10:03:26.903Z",
+    "updatedAt": "2026-08-17T10:03:26.903Z"
+  },
+  {
+    "id": "1786961060148",
+    "userId": "1786961060135",
+    "name": "API Test Customer",
+    "email": "customer@example.com",
+    "phone": "1234567890",
+    "company": "Test Co",
+    "createdAt": "2026-08-17T10:04:20.148Z",
+    "updatedAt": "2026-08-17T10:04:20.148Z"
+  },
+  {
+    "id": "1786961060187",
+    "userId": "1786961060135",
+    "name": "Sale Test Customer",
+    "email": "saletest@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T10:04:20.187Z",
+    "updatedAt": "2026-08-17T10:04:20.187Z"
+  },
+  {
+    "id": "1786961060741",
+    "userId": "1786961060730",
+    "name": "Limit Customer",
+    "email": "limitcustomer@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T10:04:20.741Z",
+    "updatedAt": "2026-08-17T10:04:20.741Z"
   }
 ]

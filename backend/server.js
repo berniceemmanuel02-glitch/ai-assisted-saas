@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 require("dotenv").config();
 
 const app = express();
@@ -7,8 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.use(express.static(path.join(__dirname, "..", "frontend")));
+
 app.get("/", (req, res) => {
-  res.json({ message: "Sales Book API is running!", version: "1.0.0" });
+  res.sendFile(path.join(__dirname, "..", "frontend", "index.html"));
 });
 
 app.use("/api/auth", require("./routes/auth"));
@@ -71,6 +74,10 @@ app.post("/api/payments/flutterwave/webhook", express.raw({ type: "application/j
   }
 
   res.status(200).json({ received: true });
+});
+
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, "..", "frontend", "index.html"));
 });
 
 const PORT = process.env.PORT || 5000;
