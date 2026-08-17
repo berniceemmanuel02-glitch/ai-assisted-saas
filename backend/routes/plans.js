@@ -21,7 +21,7 @@ router.get("/current", authMiddleware, (req, res) => {
   const sub = db.subscriptions.getByUserId(req.user.id);
   const planId = sub ? sub.planId : "free";
   const plan = plans[planId];
-  res.json({ plan: plan ? { id: plan.id, name: plan.name, price: plan.price, features: plan.features } : null });
+  res.json({ plan: plan ? { id: plan.id, name: plan.name, price: plan.price, features: plan.features, limits: plan.limits } : null });
 });
 
 module.exports = router;
