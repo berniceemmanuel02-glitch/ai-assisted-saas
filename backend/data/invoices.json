@@ -297,5 +297,29 @@
     "status": "paid",
     "createdAt": "2026-08-17T11:35:22.477Z",
     "paidAt": "2026-08-17T11:35:22.505Z"
+  },
+  {
+    "id": "1786967130799",
+    "userId": "1786967130250",
+    "invoiceNumber": "INV-MSX63ANJ",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:45:30.799Z",
+    "paidAt": "2026-08-17T11:45:30.825Z"
+  },
+  {
+    "id": "1786967217946",
+    "userId": "1786967217551",
+    "invoiceNumber": "INV-MSX655WA",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:46:57.946Z",
+    "paidAt": "2026-08-17T11:46:57.970Z"
   }
 ]

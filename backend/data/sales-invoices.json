@@ -3304,5 +3304,247 @@
     "paymentStatus": "pending",
     "issueDate": "2026-08-17T11:35:22.831Z",
     "createdAt": "2026-08-17T11:35:22.831Z"
+  },
+  {
+    "id": "1786967130376",
+    "invoiceNumber": "SINV-MSX63ABS",
+    "userId": "1786967130250",
+    "saleId": "1786967130367",
+    "customerId": "1786967130332",
+    "items": [
+      {
+        "productId": "1786967130345",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "subtotal": 7500,
+    "total": 7500,
+    "paymentStatus": "paid",
+    "issueDate": "2026-08-17T11:45:30.376Z",
+    "createdAt": "2026-08-17T11:45:30.376Z",
+    "paidAt": "2026-08-17T11:45:30.434Z"
+  },
+  {
+    "id": "1786967131266",
+    "invoiceNumber": "SINV-MSX63B0I",
+    "userId": "1786967131186",
+    "saleId": "1786967131257",
+    "customerId": "1786967131204",
+    "items": [
+      {
+        "productId": "1786967131217",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:45:31.266Z",
+    "createdAt": "2026-08-17T11:45:31.266Z"
+  },
+  {
+    "id": "1786967131303",
+    "invoiceNumber": "SINV-MSX63B1J",
+    "userId": "1786967131186",
+    "saleId": "1786967131295",
+    "customerId": "1786967131204",
+    "items": [
+      {
+        "productId": "1786967131217",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:45:31.303Z",
+    "createdAt": "2026-08-17T11:45:31.303Z"
+  },
+  {
+    "id": "1786967131348",
+    "invoiceNumber": "SINV-MSX63B2S",
+    "userId": "1786967131186",
+    "saleId": "1786967131338",
+    "customerId": "1786967131204",
+    "items": [
+      {
+        "productId": "1786967131217",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:45:31.348Z",
+    "createdAt": "2026-08-17T11:45:31.348Z"
+  },
+  {
+    "id": "1786967131384",
+    "invoiceNumber": "SINV-MSX63B3S",
+    "userId": "1786967131186",
+    "saleId": "1786967131376",
+    "customerId": "1786967131204",
+    "items": [
+      {
+        "productId": "1786967131217",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:45:31.384Z",
+    "createdAt": "2026-08-17T11:45:31.384Z"
+  },
+  {
+    "id": "1786967131449",
+    "invoiceNumber": "SINV-MSX63B5L",
+    "userId": "1786967131186",
+    "saleId": "1786967131410",
+    "customerId": "1786967131204",
+    "items": [
+      {
+        "productId": "1786967131217",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:45:31.449Z",
+    "createdAt": "2026-08-17T11:45:31.449Z"
+  },
+  {
+    "id": "1786967217683",
+    "invoiceNumber": "SINV-MSX655OZ",
+    "userId": "1786967217551",
+    "saleId": "1786967217675",
+    "customerId": "1786967217640",
+    "items": [
+      {
+        "productId": "1786967217654",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "subtotal": 7500,
+    "total": 7500,
+    "paymentStatus": "paid",
+    "issueDate": "2026-08-17T11:46:57.683Z",
+    "createdAt": "2026-08-17T11:46:57.683Z",
+    "paidAt": "2026-08-17T11:46:57.740Z"
+  },
+  {
+    "id": "1786967218231",
+    "invoiceNumber": "SINV-MSX65647",
+    "userId": "1786967218156",
+    "saleId": "1786967218220",
+    "customerId": "1786967218182",
+    "items": [
+      {
+        "productId": "1786967218195",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:46:58.231Z",
+    "createdAt": "2026-08-17T11:46:58.231Z"
+  },
+  {
+    "id": "1786967218266",
+    "invoiceNumber": "SINV-MSX65656",
+    "userId": "1786967218156",
+    "saleId": "1786967218257",
+    "customerId": "1786967218182",
+    "items": [
+      {
+        "productId": "1786967218195",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:46:58.266Z",
+    "createdAt": "2026-08-17T11:46:58.266Z"
+  },
+  {
+    "id": "1786967218292",
+    "invoiceNumber": "SINV-MSX6565W",
+    "userId": "1786967218156",
+    "saleId": "1786967218284",
+    "customerId": "1786967218182",
+    "items": [
+      {
+        "productId": "1786967218195",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:46:58.292Z",
+    "createdAt": "2026-08-17T11:46:58.292Z"
+  },
+  {
+    "id": "1786967218316",
+    "invoiceNumber": "SINV-MSX6566K",
+    "userId": "1786967218156",
+    "saleId": "1786967218307",
+    "customerId": "1786967218182",
+    "items": [
+      {
+        "productId": "1786967218195",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:46:58.316Z",
+    "createdAt": "2026-08-17T11:46:58.316Z"
+  },
+  {
+    "id": "1786967218343",
+    "invoiceNumber": "SINV-MSX6567B",
+    "userId": "1786967218156",
+    "saleId": "1786967218335",
+    "customerId": "1786967218182",
+    "items": [
+      {
+        "productId": "1786967218195",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "subtotal": 100,
+    "total": 100,
+    "paymentStatus": "pending",
+    "issueDate": "2026-08-17T11:46:58.343Z",
+    "createdAt": "2026-08-17T11:46:58.343Z"
   }
 ]

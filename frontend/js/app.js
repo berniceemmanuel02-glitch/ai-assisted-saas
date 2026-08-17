@@ -181,7 +181,7 @@ async function renderDashboard(container) {
     const sub = subsData.subscription || null;
 
     const usageMap = {};
-    usage.forEach(u => { usageMap[u.feature] = u.count; });
+    usage.forEach(u => { usageMap[u.feature] = u.used; });
 
     document.getElementById("dashboard-loading").style.display = "none";
     const content = document.getElementById("dashboard-content");

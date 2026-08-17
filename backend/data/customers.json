@@ -768,5 +768,65 @@
     "company": "",
     "createdAt": "2026-08-17T11:35:22.698Z",
     "updatedAt": "2026-08-17T11:35:22.698Z"
+  },
+  {
+    "id": "1786967130275",
+    "userId": "1786967130250",
+    "name": "API Test Customer",
+    "email": "customer@example.com",
+    "phone": "1234567890",
+    "company": "Test Co",
+    "createdAt": "2026-08-17T11:45:30.275Z",
+    "updatedAt": "2026-08-17T11:45:30.275Z"
+  },
+  {
+    "id": "1786967130332",
+    "userId": "1786967130250",
+    "name": "Sale Test Customer",
+    "email": "saletest@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T11:45:30.333Z",
+    "updatedAt": "2026-08-17T11:45:30.333Z"
+  },
+  {
+    "id": "1786967131204",
+    "userId": "1786967131186",
+    "name": "Limit Customer",
+    "email": "limitcustomer@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T11:45:31.205Z",
+    "updatedAt": "2026-08-17T11:45:31.205Z"
+  },
+  {
+    "id": "1786967217575",
+    "userId": "1786967217551",
+    "name": "API Test Customer",
+    "email": "customer@example.com",
+    "phone": "1234567890",
+    "company": "Test Co",
+    "createdAt": "2026-08-17T11:46:57.575Z",
+    "updatedAt": "2026-08-17T11:46:57.575Z"
+  },
+  {
+    "id": "1786967217640",
+    "userId": "1786967217551",
+    "name": "Sale Test Customer",
+    "email": "saletest@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T11:46:57.640Z",
+    "updatedAt": "2026-08-17T11:46:57.640Z"
+  },
+  {
+    "id": "1786967218182",
+    "userId": "1786967218156",
+    "name": "Limit Customer",
+    "email": "limitcustomer@example.com",
+    "phone": "",
+    "company": "",
+    "createdAt": "2026-08-17T11:46:58.182Z",
+    "updatedAt": "2026-08-17T11:46:58.182Z"
   }
 ]

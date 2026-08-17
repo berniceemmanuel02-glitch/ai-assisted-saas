@@ -678,5 +678,69 @@
     "password": "$2b$10$NNI2Hl/jjG8tLjuQvPRP6O.jya3DPJkgM.FiNNqo1Jnt5P1O4Goke",
     "role": "user",
     "createdAt": "2026-08-17T11:35:23.142Z"
+  },
+  {
+    "id": "1786967130250",
+    "name": "Test User",
+    "email": "test-1786967130043@example.com",
+    "password": "$2b$10$a3zMjJkZeA1vA3IM01J5K.Epy5FBqEDh/fmSizlWf7.ftcmlK49ly",
+    "role": "user",
+    "createdAt": "2026-08-17T11:45:30.250Z"
+  },
+  {
+    "id": "1786967130753",
+    "name": "Other Test User",
+    "email": "other-1786967130454@example.com",
+    "password": "$2b$10$z3Sp4/c7s6zxM/piFspWc.Zc6NZxp14lxIxjqlH8hcIhwJP/7gVvS",
+    "role": "user",
+    "createdAt": "2026-08-17T11:45:30.753Z"
+  },
+  {
+    "id": "1786967131186",
+    "name": "Limit Test User",
+    "email": "limit-test-1786967130851@example.com",
+    "password": "$2b$10$fpih1k/7VCZRUlIHkIpbGOk/HvrG0zQHaaPROEtyzCDwBSR5lgoIa",
+    "role": "user",
+    "createdAt": "2026-08-17T11:45:31.186Z"
+  },
+  {
+    "id": "1786967131781",
+    "name": "Usage Zero User",
+    "email": "usage-zero-1786967131598@example.com",
+    "password": "$2b$10$2IpT5SsdmjUZ7Ui3mc5TmuYy0Rd7Od.bm2VHy0/IEtRfc1mFrlCSa",
+    "role": "user",
+    "createdAt": "2026-08-17T11:45:31.781Z"
+  },
+  {
+    "id": "1786967217551",
+    "name": "Test User",
+    "email": "test-1786967217365@example.com",
+    "password": "$2b$10$ViMmMRO0KRluRrd62vyxHeIDETlhsi21TibC8YvbCJ1oFdpjBm7mq",
+    "role": "user",
+    "createdAt": "2026-08-17T11:46:57.551Z"
+  },
+  {
+    "id": "1786967217914",
+    "name": "Other Test User",
+    "email": "other-1786967217765@example.com",
+    "password": "$2b$10$wDKhS2j3p.iB.I.PLgByGuw9SCn4VJWQOmdUaWLOb.ko5ljG5UIby",
+    "role": "user",
+    "createdAt": "2026-08-17T11:46:57.914Z"
+  },
+  {
+    "id": "1786967218156",
+    "name": "Limit Test User",
+    "email": "limit-test-1786967218004@example.com",
+    "password": "$2b$10$AwTuIoV7z6v7QO92rK9R9e0uTCyBTM7d8CL0bjNFqqHm1.KnWfVya",
+    "role": "user",
+    "createdAt": "2026-08-17T11:46:58.156Z"
+  },
+  {
+    "id": "1786967218666",
+    "name": "Usage Zero User",
+    "email": "usage-zero-1786967218490@example.com",
+    "password": "$2b$10$t.30folz22t2qCYLLnxicuGpTTyfrn5Ro7nuEHNBcyteJxSd91rae",
+    "role": "user",
+    "createdAt": "2026-08-17T11:46:58.666Z"
   }
 ]
