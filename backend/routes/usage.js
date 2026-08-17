@@ -19,15 +19,28 @@ router.post("/track", authMiddleware, checkLimit, (req, res) => {
 });
 
 router.get("/me", authMiddleware, (req, res) => {
-  const usage = db.usage.getAll().filter((u) => u.userId === req.user.id);
   const sub = db.subscriptions.getByUserId(req.user.id);
   const planId = sub ? sub.planId : "free";
   const planLimits = require("../config/plans")[planId].limits;
 
-  const breakdown = usage.map((u) => ({
-    feature: u.feature,
-    used: u.count,
-    limit: planLimits[u.feature] || "unlimited",
+  const actualCounts = {
+    products: db.products.getByUserId(req.user.id).length,
+    customers: db.customers.getByUserId(req.user.id).length,
+    sales: db.sales.getByUserId(req.user.id).length,
+    invoices: db.salesInvoices.getByUserId(req.user.id).length,
+  };
+
+  const usage = db.usage.getAll().filter((u) => u.userId === req.user.id);
+  const usageMap = {};
+  usage.forEach((u) => {
+    usageMap[u.feature] = u.count;
+  });
+
+  const features = ["products", "customers", "sales", "invoices"];
+  const breakdown = features.map((feature) => ({
+    feature,
+    used: actualCounts[feature] || 0,
+    limit: planLimits[feature] || "unlimited",
   }));
 
   res.json({ usage: breakdown });

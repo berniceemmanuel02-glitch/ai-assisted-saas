@@ -198,5 +198,245 @@
     "userId": "1786961060730",
     "feature": "invoices",
     "count": 5
+  },
+  {
+    "userId": "1786963461307",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786963461307",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786963462187",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786963462187",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786964429851",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786964429851",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786964430422",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786964430422",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786965965169",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786965965169",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786965965788",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786965965788",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966035915",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966035915",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966036623",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966036623",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966137526",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966137526",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966138048",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966138048",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966182179",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966182179",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966182980",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966182980",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966348574",
+    "feature": "customers",
+    "count": 2
+  },
+  {
+    "userId": "1786966348574",
+    "feature": "products",
+    "count": 2
+  },
+  {
+    "userId": "1786966348574",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966348574",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966349460",
+    "feature": "customers",
+    "count": 1
+  },
+  {
+    "userId": "1786966349460",
+    "feature": "products",
+    "count": 1
+  },
+  {
+    "userId": "1786966349460",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966349460",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966409229",
+    "feature": "customers",
+    "count": 2
+  },
+  {
+    "userId": "1786966409229",
+    "feature": "products",
+    "count": 2
+  },
+  {
+    "userId": "1786966409229",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966409229",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966409816",
+    "feature": "customers",
+    "count": 1
+  },
+  {
+    "userId": "1786966409816",
+    "feature": "products",
+    "count": 1
+  },
+  {
+    "userId": "1786966409816",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966409816",
+    "feature": "invoices",
+    "count": 5
+  },
+  {
+    "userId": "1786966521874",
+    "feature": "customers",
+    "count": 2
+  },
+  {
+    "userId": "1786966521874",
+    "feature": "products",
+    "count": 2
+  },
+  {
+    "userId": "1786966521874",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786966521874",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786966522688",
+    "feature": "customers",
+    "count": 1
+  },
+  {
+    "userId": "1786966522688",
+    "feature": "products",
+    "count": 1
+  },
+  {
+    "userId": "1786966522688",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786966522688",
+    "feature": "invoices",
+    "count": 5
   }
 ]

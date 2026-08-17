@@ -37,6 +37,7 @@ router.post("/", authMiddleware, (req, res) => {
     };
 
     db.products.create(product);
+    db.usage.increment(req.user.id, "products", 1);
     res.status(201).json({ message: "Product created", product });
   } catch (error) {
     res.status(500).json({ message: "Product creation failed", error: error.message });

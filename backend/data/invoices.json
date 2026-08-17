@@ -189,5 +189,113 @@
     "status": "paid",
     "createdAt": "2026-08-17T10:04:20.532Z",
     "paidAt": "2026-08-17T10:04:20.557Z"
+  },
+  {
+    "id": "1786963461970",
+    "userId": "1786963461307",
+    "invoiceNumber": "INV-MSX3WNRM",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T10:44:21.970Z",
+    "paidAt": "2026-08-17T10:44:22.006Z"
+  },
+  {
+    "id": "1786964430196",
+    "userId": "1786964429851",
+    "invoiceNumber": "INV-MSX4HEUS",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:00:30.196Z",
+    "paidAt": "2026-08-17T11:00:30.218Z"
+  },
+  {
+    "id": "1786965965572",
+    "userId": "1786965965169",
+    "invoiceNumber": "INV-MSX5EBK4",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:26:05.572Z",
+    "paidAt": "2026-08-17T11:26:05.592Z"
+  },
+  {
+    "id": "1786966036383",
+    "userId": "1786966035915",
+    "invoiceNumber": "INV-MSX5FU73",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:27:16.383Z",
+    "paidAt": "2026-08-17T11:27:16.430Z"
+  },
+  {
+    "id": "1786966137849",
+    "userId": "1786966137526",
+    "invoiceNumber": "INV-MSX5I0HL",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:28:57.849Z",
+    "paidAt": "2026-08-17T11:28:57.872Z"
+  },
+  {
+    "id": "1786966182673",
+    "userId": "1786966182179",
+    "invoiceNumber": "INV-MSX5IZ2P",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:29:42.673Z",
+    "paidAt": "2026-08-17T11:29:42.695Z"
+  },
+  {
+    "id": "1786966349260",
+    "userId": "1786966348574",
+    "invoiceNumber": "INV-MSX5MJM4",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:32:29.260Z",
+    "paidAt": "2026-08-17T11:32:29.283Z"
+  },
+  {
+    "id": "1786966409626",
+    "userId": "1786966409229",
+    "invoiceNumber": "INV-MSX5NU6Y",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:33:29.626Z",
+    "paidAt": "2026-08-17T11:33:29.650Z"
+  },
+  {
+    "id": "1786966522477",
+    "userId": "1786966521874",
+    "invoiceNumber": "INV-MSX5Q99P",
+    "planId": "pro",
+    "amount": 29,
+    "currency": "USD",
+    "description": "Test subscription billing",
+    "status": "paid",
+    "createdAt": "2026-08-17T11:35:22.477Z",
+    "paidAt": "2026-08-17T11:35:22.505Z"
   }
 ]

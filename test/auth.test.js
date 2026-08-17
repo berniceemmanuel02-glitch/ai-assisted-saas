@@ -543,3 +543,73 @@ test("invoice-limit: successful invoice creation increments usage", async () => 
   assert.ok(usageRecord);
   assert.strictEqual(usageRecord.count, 5);
 });
+
+test("usage: reflects actual product count from data store", async () => {
+  const res = await request("GET", "/api/usage/me", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  assert.ok(Array.isArray(res.body.usage));
+  const productsEntry = res.body.usage.find((u) => u.feature === "products");
+  assert.ok(productsEntry);
+  assert.ok(productsEntry.used >= 1);
+  assert.strictEqual(productsEntry.limit, 10);
+});
+
+test("usage: reflects actual customer count from data store", async () => {
+  const res = await request("GET", "/api/usage/me", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  const customersEntry = res.body.usage.find((u) => u.feature === "customers");
+  assert.ok(customersEntry);
+  assert.ok(customersEntry.used >= 1);
+  assert.strictEqual(customersEntry.limit, 20);
+});
+
+test("usage: reflects actual sales count from data store", async () => {
+  const res = await request("GET", "/api/usage/me", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  const salesEntry = res.body.usage.find((u) => u.feature === "sales");
+  assert.ok(salesEntry);
+  assert.ok(salesEntry.used >= 1);
+  assert.strictEqual(salesEntry.limit, 10);
+});
+
+test("usage: reflects actual invoice count from data store", async () => {
+  const res = await request("GET", "/api/usage/me", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  const invoicesEntry = res.body.usage.find((u) => u.feature === "invoices");
+  assert.ok(invoicesEntry);
+  assert.ok(invoicesEntry.used >= 1);
+  assert.strictEqual(invoicesEntry.limit, 5);
+});
+
+test("usage: returns all four features even when some have zero records", async () => {
+  const email = `usage-zero-${Date.now()}@example.com`;
+  const registerRes = await request("POST", "/api/auth/register", {}, {
+    name: "Usage Zero User",
+    email,
+    password: "usagepass123",
+  });
+  assert.strictEqual(registerRes.status, 201);
+  const zeroToken = registerRes.body.token;
+
+  const res = await request("GET", "/api/usage/me", {
+    Authorization: `Bearer ${zeroToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  assert.ok(Array.isArray(res.body.usage));
+  const features = res.body.usage.map((u) => u.feature);
+  assert.ok(features.includes("products"));
+  assert.ok(features.includes("customers"));
+  assert.ok(features.includes("sales"));
+  assert.ok(features.includes("invoices"));
+  res.body.usage.forEach((entry) => {
+    assert.strictEqual(entry.used, 0);
+  });
+});
