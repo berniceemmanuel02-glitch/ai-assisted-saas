@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "1786802710711",
+    "userId": "1786795808598",
+    "customerId": "1786801594390",
+    "items": [
+      {
+        "productId": "1786802593752",
+        "quantity": 2,
+        "price": 100,
+        "total": 200
+      }
+    ],
+    "total": 200,
+    "paymentMethod": "cash",
+    "date": "2026-08-15T14:05:10.711Z",
+    "createdAt": "2026-08-15T14:05:10.711Z",
+    "updatedAt": "2026-08-15T14:05:10.711Z"
+  },
+  {
+    "id": "1786802962640",
+    "userId": "1786795808598",
+    "customerId": "1786801634967",
+    "items": [
+      {
+        "productId": "1786802876237",
+        "quantity": 2,
+        "price": 1000,
+        "total": 2000
+      }
+    ],
+    "total": 2000,
+    "paymentMethod": "cash",
+    "date": "2026-08-15T14:09:22.640Z",
+    "createdAt": "2026-08-15T14:09:22.640Z",
+    "updatedAt": "2026-08-15T14:09:22.640Z"
+  },
+  {
+    "id": "1786803425271",
+    "userId": "1786795808598",
+    "customerId": "1786801634967",
+    "items": [
+      {
+        "productId": "1786802876237",
+        "quantity": 2,
+        "price": 1000,
+        "total": 2000
+      }
+    ],
+    "total": 2000,
+    "paymentMethod": "cash",
+    "date": "2026-08-15T14:17:05.271Z",
+    "createdAt": "2026-08-15T14:17:05.271Z",
+    "updatedAt": "2026-08-15T14:17:05.271Z"
+  },
+  {
+    "id": "1786885474711",
+    "userId": "1786885474643",
+    "customerId": "1786885474693",
+    "items": [
+      {
+        "productId": "1786885474701",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:04:34.711Z",
+    "createdAt": "2026-08-16T13:04:34.711Z",
+    "updatedAt": "2026-08-16T13:04:34.711Z"
+  },
+  {
+    "id": "1786885575094",
+    "userId": "1786885574973",
+    "customerId": "1786885575040",
+    "items": [
+      {
+        "productId": "1786885575051",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:06:15.094Z",
+    "createdAt": "2026-08-16T13:06:15.094Z",
+    "updatedAt": "2026-08-16T13:06:15.094Z"
+  },
+  {
+    "id": "1786885730446",
+    "userId": "1786885730360",
+    "customerId": "1786885730422",
+    "items": [
+      {
+        "productId": "1786885730429",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:08:50.446Z",
+    "createdAt": "2026-08-16T13:08:50.446Z",
+    "updatedAt": "2026-08-16T13:08:50.446Z"
+  },
+  {
+    "id": "1786886143378",
+    "userId": "1786886143303",
+    "customerId": "1786886143359",
+    "items": [
+      {
+        "productId": "1786886143368",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:15:43.378Z",
+    "createdAt": "2026-08-16T13:15:43.378Z",
+    "updatedAt": "2026-08-16T13:15:43.378Z"
+  },
+  {
+    "id": "1786886297570",
+    "userId": "1786886297499",
+    "customerId": "1786886297551",
+    "items": [
+      {
+        "productId": "1786886297559",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:17.570Z",
+    "createdAt": "2026-08-16T13:18:17.570Z",
+    "updatedAt": "2026-08-16T13:18:17.570Z"
+  },
+  {
+    "id": "1786886298119",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.119Z",
+    "createdAt": "2026-08-16T13:18:18.119Z",
+    "updatedAt": "2026-08-16T13:18:18.119Z"
+  },
+  {
+    "id": "1786886298139",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.139Z",
+    "createdAt": "2026-08-16T13:18:18.139Z",
+    "updatedAt": "2026-08-16T13:18:18.139Z"
+  },
+  {
+    "id": "1786886298157",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.157Z",
+    "createdAt": "2026-08-16T13:18:18.157Z",
+    "updatedAt": "2026-08-16T13:18:18.157Z"
+  },
+  {
+    "id": "1786886298173",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.173Z",
+    "createdAt": "2026-08-16T13:18:18.173Z",
+    "updatedAt": "2026-08-16T13:18:18.173Z"
+  },
+  {
+    "id": "1786886298189",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.189Z",
+    "createdAt": "2026-08-16T13:18:18.189Z",
+    "updatedAt": "2026-08-16T13:18:18.189Z"
+  },
+  {
+    "id": "1786886298209",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.209Z",
+    "createdAt": "2026-08-16T13:18:18.209Z",
+    "updatedAt": "2026-08-16T13:18:18.209Z"
+  },
+  {
+    "id": "1786886298230",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.230Z",
+    "createdAt": "2026-08-16T13:18:18.230Z",
+    "updatedAt": "2026-08-16T13:18:18.230Z"
+  },
+  {
+    "id": "1786886298261",
+    "userId": "1786886298094",
+    "customerId": "1786886298103",
+    "items": [
+      {
+        "productId": "1786886298110",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T13:18:18.261Z",
+    "createdAt": "2026-08-16T13:18:18.261Z",
+    "updatedAt": "2026-08-16T13:18:18.261Z"
+  },
+  {
+    "id": "1786889352520",
+    "userId": "1786889351942",
+    "customerId": "1786889352428",
+    "items": [
+      {
+        "productId": "1786889352439",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:12.520Z",
+    "createdAt": "2026-08-16T14:09:12.520Z",
+    "updatedAt": "2026-08-16T14:09:12.520Z"
+  },
+  {
+    "id": "1786889353760",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.760Z",
+    "createdAt": "2026-08-16T14:09:13.760Z",
+    "updatedAt": "2026-08-16T14:09:13.760Z"
+  },
+  {
+    "id": "1786889353785",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.785Z",
+    "createdAt": "2026-08-16T14:09:13.785Z",
+    "updatedAt": "2026-08-16T14:09:13.785Z"
+  },
+  {
+    "id": "1786889353806",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.806Z",
+    "createdAt": "2026-08-16T14:09:13.806Z",
+    "updatedAt": "2026-08-16T14:09:13.806Z"
+  },
+  {
+    "id": "1786889353848",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.848Z",
+    "createdAt": "2026-08-16T14:09:13.848Z",
+    "updatedAt": "2026-08-16T14:09:13.848Z"
+  },
+  {
+    "id": "1786889353864",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.864Z",
+    "createdAt": "2026-08-16T14:09:13.864Z",
+    "updatedAt": "2026-08-16T14:09:13.864Z"
+  },
+  {
+    "id": "1786889353913",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:13.913Z",
+    "createdAt": "2026-08-16T14:09:13.913Z",
+    "updatedAt": "2026-08-16T14:09:13.913Z"
+  },
+  {
+    "id": "1786889354301",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:14.301Z",
+    "createdAt": "2026-08-16T14:09:14.301Z",
+    "updatedAt": "2026-08-16T14:09:14.301Z"
+  },
+  {
+    "id": "1786889354328",
+    "userId": "1786889353726",
+    "customerId": "1786889353739",
+    "items": [
+      {
+        "productId": "1786889353748",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:09:14.328Z",
+    "createdAt": "2026-08-16T14:09:14.328Z",
+    "updatedAt": "2026-08-16T14:09:14.328Z"
+  },
+  {
+    "id": "1786889707793",
+    "userId": "1786889707644",
+    "customerId": "1786889707738",
+    "items": [
+      {
+        "productId": "1786889707745",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:07.793Z",
+    "createdAt": "2026-08-16T14:15:07.793Z",
+    "updatedAt": "2026-08-16T14:15:07.793Z"
+  },
+  {
+    "id": "1786889708454",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.454Z",
+    "createdAt": "2026-08-16T14:15:08.454Z",
+    "updatedAt": "2026-08-16T14:15:08.454Z"
+  },
+  {
+    "id": "1786889708493",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.493Z",
+    "createdAt": "2026-08-16T14:15:08.493Z",
+    "updatedAt": "2026-08-16T14:15:08.493Z"
+  },
+  {
+    "id": "1786889708535",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.535Z",
+    "createdAt": "2026-08-16T14:15:08.535Z",
+    "updatedAt": "2026-08-16T14:15:08.535Z"
+  },
+  {
+    "id": "1786889708556",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.556Z",
+    "createdAt": "2026-08-16T14:15:08.556Z",
+    "updatedAt": "2026-08-16T14:15:08.556Z"
+  },
+  {
+    "id": "1786889708573",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.573Z",
+    "createdAt": "2026-08-16T14:15:08.573Z",
+    "updatedAt": "2026-08-16T14:15:08.573Z"
+  },
+  {
+    "id": "1786889708658",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.658Z",
+    "createdAt": "2026-08-16T14:15:08.658Z",
+    "updatedAt": "2026-08-16T14:15:08.658Z"
+  },
+  {
+    "id": "1786889708678",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.678Z",
+    "createdAt": "2026-08-16T14:15:08.678Z",
+    "updatedAt": "2026-08-16T14:15:08.678Z"
+  },
+  {
+    "id": "1786889708734",
+    "userId": "1786889708400",
+    "customerId": "1786889708413",
+    "items": [
+      {
+        "productId": "1786889708440",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:15:08.734Z",
+    "createdAt": "2026-08-16T14:15:08.734Z",
+    "updatedAt": "2026-08-16T14:15:08.734Z"
+  },
+  {
+    "id": "1786889805631",
+    "userId": "1786889805533",
+    "customerId": "1786889805584",
+    "items": [
+      {
+        "productId": "1786889805621",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:45.631Z",
+    "createdAt": "2026-08-16T14:16:45.631Z",
+    "updatedAt": "2026-08-16T14:16:45.631Z"
+  },
+  {
+    "id": "1786889806456",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.456Z",
+    "createdAt": "2026-08-16T14:16:46.456Z",
+    "updatedAt": "2026-08-16T14:16:46.456Z"
+  },
+  {
+    "id": "1786889806526",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.526Z",
+    "createdAt": "2026-08-16T14:16:46.526Z",
+    "updatedAt": "2026-08-16T14:16:46.526Z"
+  },
+  {
+    "id": "1786889806556",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.556Z",
+    "createdAt": "2026-08-16T14:16:46.556Z",
+    "updatedAt": "2026-08-16T14:16:46.556Z"
+  },
+  {
+    "id": "1786889806582",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.582Z",
+    "createdAt": "2026-08-16T14:16:46.582Z",
+    "updatedAt": "2026-08-16T14:16:46.582Z"
+  },
+  {
+    "id": "1786889806933",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.933Z",
+    "createdAt": "2026-08-16T14:16:46.933Z",
+    "updatedAt": "2026-08-16T14:16:46.933Z"
+  },
+  {
+    "id": "1786889806988",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:46.988Z",
+    "createdAt": "2026-08-16T14:16:46.988Z",
+    "updatedAt": "2026-08-16T14:16:46.988Z"
+  },
+  {
+    "id": "1786889807020",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:47.020Z",
+    "createdAt": "2026-08-16T14:16:47.020Z",
+    "updatedAt": "2026-08-16T14:16:47.020Z"
+  },
+  {
+    "id": "1786889807055",
+    "userId": "1786889806245",
+    "customerId": "1786889806256",
+    "items": [
+      {
+        "productId": "1786889806262",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:16:47.055Z",
+    "createdAt": "2026-08-16T14:16:47.055Z",
+    "updatedAt": "2026-08-16T14:16:47.055Z"
+  },
+  {
+    "id": "1786890037340",
+    "userId": "1786890037249",
+    "customerId": "1786890037290",
+    "items": [
+      {
+        "productId": "1786890037297",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.340Z",
+    "createdAt": "2026-08-16T14:20:37.340Z",
+    "updatedAt": "2026-08-16T14:20:37.340Z"
+  },
+  {
+    "id": "1786890037866",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.866Z",
+    "createdAt": "2026-08-16T14:20:37.866Z",
+    "updatedAt": "2026-08-16T14:20:37.866Z"
+  },
+  {
+    "id": "1786890037886",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.886Z",
+    "createdAt": "2026-08-16T14:20:37.886Z",
+    "updatedAt": "2026-08-16T14:20:37.886Z"
+  },
+  {
+    "id": "1786890037901",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.901Z",
+    "createdAt": "2026-08-16T14:20:37.901Z",
+    "updatedAt": "2026-08-16T14:20:37.901Z"
+  },
+  {
+    "id": "1786890037915",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.915Z",
+    "createdAt": "2026-08-16T14:20:37.915Z",
+    "updatedAt": "2026-08-16T14:20:37.915Z"
+  },
+  {
+    "id": "1786890037930",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.930Z",
+    "createdAt": "2026-08-16T14:20:37.930Z",
+    "updatedAt": "2026-08-16T14:20:37.930Z"
+  },
+  {
+    "id": "1786890037956",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.956Z",
+    "createdAt": "2026-08-16T14:20:37.956Z",
+    "updatedAt": "2026-08-16T14:20:37.956Z"
+  },
+  {
+    "id": "1786890037979",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:37.979Z",
+    "createdAt": "2026-08-16T14:20:37.979Z",
+    "updatedAt": "2026-08-16T14:20:37.979Z"
+  },
+  {
+    "id": "1786890038006",
+    "userId": "1786890037840",
+    "customerId": "1786890037850",
+    "items": [
+      {
+        "productId": "1786890037856",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:20:38.006Z",
+    "createdAt": "2026-08-16T14:20:38.006Z",
+    "updatedAt": "2026-08-16T14:20:38.006Z"
+  },
+  {
+    "id": "1786890197330",
+    "userId": "1786890197222",
+    "customerId": "1786890197276",
+    "items": [
+      {
+        "productId": "1786890197318",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.330Z",
+    "createdAt": "2026-08-16T14:23:17.330Z",
+    "updatedAt": "2026-08-16T14:23:17.330Z"
+  },
+  {
+    "id": "1786890197809",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.809Z",
+    "createdAt": "2026-08-16T14:23:17.809Z",
+    "updatedAt": "2026-08-16T14:23:17.809Z"
+  },
+  {
+    "id": "1786890197827",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.827Z",
+    "createdAt": "2026-08-16T14:23:17.827Z",
+    "updatedAt": "2026-08-16T14:23:17.827Z"
+  },
+  {
+    "id": "1786890197842",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.842Z",
+    "createdAt": "2026-08-16T14:23:17.842Z",
+    "updatedAt": "2026-08-16T14:23:17.842Z"
+  },
+  {
+    "id": "1786890197857",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.857Z",
+    "createdAt": "2026-08-16T14:23:17.857Z",
+    "updatedAt": "2026-08-16T14:23:17.857Z"
+  },
+  {
+    "id": "1786890197872",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.872Z",
+    "createdAt": "2026-08-16T14:23:17.872Z",
+    "updatedAt": "2026-08-16T14:23:17.872Z"
+  },
+  {
+    "id": "1786890197890",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.890Z",
+    "createdAt": "2026-08-16T14:23:17.890Z",
+    "updatedAt": "2026-08-16T14:23:17.890Z"
+  },
+  {
+    "id": "1786890197907",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.907Z",
+    "createdAt": "2026-08-16T14:23:17.907Z",
+    "updatedAt": "2026-08-16T14:23:17.907Z"
+  },
+  {
+    "id": "1786890197933",
+    "userId": "1786890197786",
+    "customerId": "1786890197795",
+    "items": [
+      {
+        "productId": "1786890197801",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:23:17.933Z",
+    "createdAt": "2026-08-16T14:23:17.933Z",
+    "updatedAt": "2026-08-16T14:23:17.933Z"
+  },
+  {
+    "id": "1786890331939",
+    "userId": "1786890331812",
+    "customerId": "1786890331865",
+    "items": [
+      {
+        "productId": "1786890331928",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:31.939Z",
+    "createdAt": "2026-08-16T14:25:31.939Z",
+    "updatedAt": "2026-08-16T14:25:31.939Z"
+  },
+  {
+    "id": "1786890332506",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.506Z",
+    "createdAt": "2026-08-16T14:25:32.506Z",
+    "updatedAt": "2026-08-16T14:25:32.506Z"
+  },
+  {
+    "id": "1786890332524",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.524Z",
+    "createdAt": "2026-08-16T14:25:32.524Z",
+    "updatedAt": "2026-08-16T14:25:32.524Z"
+  },
+  {
+    "id": "1786890332545",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.545Z",
+    "createdAt": "2026-08-16T14:25:32.545Z",
+    "updatedAt": "2026-08-16T14:25:32.545Z"
+  },
+  {
+    "id": "1786890332565",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.565Z",
+    "createdAt": "2026-08-16T14:25:32.565Z",
+    "updatedAt": "2026-08-16T14:25:32.565Z"
+  },
+  {
+    "id": "1786890332589",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.589Z",
+    "createdAt": "2026-08-16T14:25:32.589Z",
+    "updatedAt": "2026-08-16T14:25:32.589Z"
+  },
+  {
+    "id": "1786890332616",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.616Z",
+    "createdAt": "2026-08-16T14:25:32.616Z",
+    "updatedAt": "2026-08-16T14:25:32.616Z"
+  },
+  {
+    "id": "1786890332634",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.634Z",
+    "createdAt": "2026-08-16T14:25:32.634Z",
+    "updatedAt": "2026-08-16T14:25:32.634Z"
+  },
+  {
+    "id": "1786890332664",
+    "userId": "1786890332481",
+    "customerId": "1786890332491",
+    "items": [
+      {
+        "productId": "1786890332497",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T14:25:32.664Z",
+    "createdAt": "2026-08-16T14:25:32.664Z",
+    "updatedAt": "2026-08-16T14:25:32.664Z"
+  },
+  {
+    "id": "1786893041597",
+    "userId": "1786893041499",
+    "customerId": "1786893041575",
+    "items": [
+      {
+        "productId": "1786893041584",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:41.597Z",
+    "createdAt": "2026-08-16T15:10:41.597Z",
+    "updatedAt": "2026-08-16T15:10:41.597Z"
+  },
+  {
+    "id": "1786893042162",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.162Z",
+    "createdAt": "2026-08-16T15:10:42.162Z",
+    "updatedAt": "2026-08-16T15:10:42.162Z"
+  },
+  {
+    "id": "1786893042180",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.180Z",
+    "createdAt": "2026-08-16T15:10:42.180Z",
+    "updatedAt": "2026-08-16T15:10:42.180Z"
+  },
+  {
+    "id": "1786893042198",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.198Z",
+    "createdAt": "2026-08-16T15:10:42.198Z",
+    "updatedAt": "2026-08-16T15:10:42.198Z"
+  },
+  {
+    "id": "1786893042213",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.213Z",
+    "createdAt": "2026-08-16T15:10:42.213Z",
+    "updatedAt": "2026-08-16T15:10:42.213Z"
+  },
+  {
+    "id": "1786893042227",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.227Z",
+    "createdAt": "2026-08-16T15:10:42.227Z",
+    "updatedAt": "2026-08-16T15:10:42.227Z"
+  },
+  {
+    "id": "1786893042246",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.246Z",
+    "createdAt": "2026-08-16T15:10:42.246Z",
+    "updatedAt": "2026-08-16T15:10:42.246Z"
+  },
+  {
+    "id": "1786893042264",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.264Z",
+    "createdAt": "2026-08-16T15:10:42.264Z",
+    "updatedAt": "2026-08-16T15:10:42.264Z"
+  },
+  {
+    "id": "1786893042293",
+    "userId": "1786893042139",
+    "customerId": "1786893042148",
+    "items": [
+      {
+        "productId": "1786893042153",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:10:42.293Z",
+    "createdAt": "2026-08-16T15:10:42.293Z",
+    "updatedAt": "2026-08-16T15:10:42.293Z"
+  },
+  {
+    "id": "1786893077160",
+    "userId": "1786893077077",
+    "customerId": "1786893077130",
+    "items": [
+      {
+        "productId": "1786893077143",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.160Z",
+    "createdAt": "2026-08-16T15:11:17.160Z",
+    "updatedAt": "2026-08-16T15:11:17.160Z"
+  },
+  {
+    "id": "1786893077715",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.715Z",
+    "createdAt": "2026-08-16T15:11:17.715Z",
+    "updatedAt": "2026-08-16T15:11:17.715Z"
+  },
+  {
+    "id": "1786893077734",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.734Z",
+    "createdAt": "2026-08-16T15:11:17.734Z",
+    "updatedAt": "2026-08-16T15:11:17.734Z"
+  },
+  {
+    "id": "1786893077751",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.751Z",
+    "createdAt": "2026-08-16T15:11:17.751Z",
+    "updatedAt": "2026-08-16T15:11:17.751Z"
+  },
+  {
+    "id": "1786893077766",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.766Z",
+    "createdAt": "2026-08-16T15:11:17.766Z",
+    "updatedAt": "2026-08-16T15:11:17.766Z"
+  },
+  {
+    "id": "1786893077780",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.780Z",
+    "createdAt": "2026-08-16T15:11:17.780Z",
+    "updatedAt": "2026-08-16T15:11:17.780Z"
+  },
+  {
+    "id": "1786893077798",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.798Z",
+    "createdAt": "2026-08-16T15:11:17.798Z",
+    "updatedAt": "2026-08-16T15:11:17.798Z"
+  },
+  {
+    "id": "1786893077815",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.815Z",
+    "createdAt": "2026-08-16T15:11:17.815Z",
+    "updatedAt": "2026-08-16T15:11:17.815Z"
+  },
+  {
+    "id": "1786893077892",
+    "userId": "1786893077692",
+    "customerId": "1786893077701",
+    "items": [
+      {
+        "productId": "1786893077707",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-16T15:11:17.892Z",
+    "createdAt": "2026-08-16T15:11:17.892Z",
+    "updatedAt": "2026-08-16T15:11:17.892Z"
+  },
+  {
+    "id": "1786952293966",
+    "userId": "1786952293514",
+    "customerId": "1786952293815",
+    "items": [
+      {
+        "productId": "1786952293825",
+        "quantity": 3,
+        "price": 2500,
+        "total": 7500
+      }
+    ],
+    "total": 7500,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:13.966Z",
+    "createdAt": "2026-08-17T07:38:13.966Z",
+    "updatedAt": "2026-08-17T07:38:13.966Z"
+  },
+  {
+    "id": "1786952294599",
+    "userId": "1786952294567",
+    "customerId": "1786952294578",
+    "items": [
+      {
+        "productId": "1786952294586",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:14.599Z",
+    "createdAt": "2026-08-17T07:38:14.599Z",
+    "updatedAt": "2026-08-17T07:38:14.599Z"
+  },
+  {
+    "id": "1786952294627",
+    "userId": "1786952294567",
+    "customerId": "1786952294578",
+    "items": [
+      {
+        "productId": "1786952294586",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:14.627Z",
+    "createdAt": "2026-08-17T07:38:14.627Z",
+    "updatedAt": "2026-08-17T07:38:14.627Z"
+  },
+  {
+    "id": "1786952294649",
+    "userId": "1786952294567",
+    "customerId": "1786952294578",
+    "items": [
+      {
+        "productId": "1786952294586",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:14.649Z",
+    "createdAt": "2026-08-17T07:38:14.649Z",
+    "updatedAt": "2026-08-17T07:38:14.649Z"
+  },
+  {
+    "id": "1786952294670",
+    "userId": "1786952294567",
+    "customerId": "1786952294578",
+    "items": [
+      {
+        "productId": "1786952294586",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:14.670Z",
+    "createdAt": "2026-08-17T07:38:14.670Z",
+    "updatedAt": "2026-08-17T07:38:14.670Z"
+  },
+  {
+    "id": "1786952294688",
+    "userId": "1786952294567",
+    "customerId": "1786952294578",
+    "items": [
+      {
+        "productId": "1786952294586",
+        "quantity": 1,
+        "price": 100,
+        "total": 100
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "date": "2026-08-17T07:38:14.688Z",
+    "createdAt": "2026-08-17T07:38:14.688Z",
+    "updatedAt": "2026-08-17T07:38:14.688Z"
+  }
+]

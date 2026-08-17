@@ -1,0 +1,142 @@
+[
+  {
+    "userId": "1786795808598",
+    "feature": "products",
+    "count": 1
+  },
+  {
+    "userId": "1786795808598",
+    "feature": "sales",
+    "count": 3
+  },
+  {
+    "userId": "1786885474643",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786885574973",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786885730360",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786886143303",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786886297499",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786886298094",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786889351942",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786889353726",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786889707644",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786889708400",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786889805533",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786889806245",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786890037249",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786890037840",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786890197222",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786890197786",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786890331812",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786890332481",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786893041499",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786893042139",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786893077077",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786893077692",
+    "feature": "sales",
+    "count": 8
+  },
+  {
+    "userId": "1786952293514",
+    "feature": "sales",
+    "count": 1
+  },
+  {
+    "userId": "1786952293514",
+    "feature": "invoices",
+    "count": 1
+  },
+  {
+    "userId": "1786952294567",
+    "feature": "sales",
+    "count": 5
+  },
+  {
+    "userId": "1786952294567",
+    "feature": "invoices",
+    "count": 5
+  }
+]
