@@ -23,6 +23,7 @@ app.use("/api/products", require("./routes/products"));
 app.use("/api/customers", require("./routes/customers"));
 app.use("/api/sales", require("./routes/sales"));
 app.use("/api/invoices", require("./routes/invoices"));
+app.use("/api/admin", require("./routes/admin"));
 
 app.post("/api/payments/paystack/webhook", express.raw({ type: "application/json" }), (req, res) => {
   const signature = req.headers["x-paystack-signature"];

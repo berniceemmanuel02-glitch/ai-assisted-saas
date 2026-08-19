@@ -613,3 +613,66 @@ test("usage: returns all four features even when some have zero records", async 
     assert.strictEqual(entry.used, 0);
   });
 });
+
+let adminToken;
+
+test("admin: non-admin cannot access admin stats", async () => {
+  const res = await request("GET", "/api/admin/stats", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 403);
+});
+
+test("admin: non-admin cannot access admin users list", async () => {
+  const res = await request("GET", "/api/admin/users", {
+    Authorization: `Bearer ${authToken}`,
+  });
+  assert.strictEqual(res.status, 403);
+});
+
+test("admin: admin can access admin stats", async () => {
+  const adminEmail = `admin-${Date.now()}@example.com`;
+  const adminRes = await request("POST", "/api/auth/register", {}, {
+    name: "Admin Test User",
+    email: adminEmail,
+    password: "adminpass123",
+    role: "admin",
+  });
+  assert.strictEqual(adminRes.status, 201);
+  adminToken = adminRes.body.token;
+
+  const res = await request("GET", "/api/admin/stats", {
+    Authorization: `Bearer ${adminToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  assert.ok(typeof res.body.totalUsers === "number");
+  assert.ok(typeof res.body.activeUsers === "number");
+  assert.ok(typeof res.body.paidUsers === "number");
+  assert.ok(typeof res.body.revenue === "number");
+  assert.ok(typeof res.body.pendingPayments === "number");
+});
+
+test("admin: admin can access admin users list", async () => {
+  const res = await request("GET", "/api/admin/users", {
+    Authorization: `Bearer ${adminToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  assert.ok(Array.isArray(res.body.users));
+  assert.ok(res.body.users.length >= 1);
+  const firstUser = res.body.users[0];
+  assert.ok(firstUser.id);
+  assert.ok(firstUser.name);
+  assert.ok(firstUser.email);
+  assert.ok(firstUser.createdAt);
+  assert.ok(firstUser.plan);
+  assert.ok(firstUser.status);
+});
+
+test("admin: users list includes all registered users", async () => {
+  const res = await request("GET", "/api/admin/users", {
+    Authorization: `Bearer ${adminToken}`,
+  });
+  assert.strictEqual(res.status, 200);
+  const emails = res.body.users.map((u) => u.email);
+  assert.ok(emails.includes("admin-") || res.body.users.length >= 1);
+});

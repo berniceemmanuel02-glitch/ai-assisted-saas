@@ -17,6 +17,10 @@ function showLogin() {
 
 function showApp() {
   document.getElementById("navbar").style.display = "flex";
+  const adminLink = document.getElementById("admin-nav-link");
+  if (adminLink) {
+    adminLink.style.display = currentUser && currentUser.role === "admin" ? "inline-block" : "none";
+  }
   updateNavActive();
 }
 
@@ -240,6 +244,9 @@ async function route() {
       break;
     case "billing":
       renderBilling(main);
+      break;
+    case "admin":
+      renderAdmin(main);
       break;
     default:
       await renderDashboard(main);
