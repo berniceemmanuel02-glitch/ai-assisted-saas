@@ -676,3 +676,107 @@ test("admin: users list includes all registered users", async () => {
   const emails = res.body.users.map((u) => u.email);
   assert.ok(emails.includes("admin-") || res.body.users.length >= 1);
 });
+
+const { authMiddleware } = require("../backend/middleware/auth");
+
+function createAuthMiddlewareContext(email, role = "user") {
+  const db = require("../backend/data/store");
+  const user = db.users.getByEmail(email);
+  if (!user) return null;
+
+  const jwt = require("jsonwebtoken");
+  const JWT_SECRET = process.env.JWT_SECRET || "salesbook-secret-key";
+  const token = jwt.sign({ id: user.id }, JWT_SECRET, { expiresIn: "1h" });
+
+  const req = {
+    headers: { authorization: `Bearer ${token}` },
+  };
+  const res = {
+    status(code) {
+      res._status = code;
+      return res;
+    },
+    json(data) {
+      res._body = data;
+      return res;
+    },
+  };
+  let nextCalled = false;
+  const next = () => { nextCalled = true; };
+
+  authMiddleware(req, res, next);
+
+  return { req, res, nextCalled };
+}
+
+test("env-admin: email in ADMIN_EMAILS is elevated to admin", async () => {
+  process.env.ADMIN_EMAILS = `env-admin-${Date.now()}@example.com`;
+  const email = process.env.ADMIN_EMAILS.split(",")[0].trim();
+
+  const registerRes = await request("POST", "/api/auth/register", {}, {
+    name: "Env Admin User",
+    email,
+    password: "envadminpass123",
+  });
+  assert.strictEqual(registerRes.status, 201);
+
+  const ctx = createAuthMiddlewareContext(email);
+  assert.ok(ctx);
+  assert.strictEqual(ctx.req.user.role, "admin");
+
+  delete process.env.ADMIN_EMAILS;
+});
+
+test("env-admin: email not in ADMIN_EMAILS remains user", async () => {
+  process.env.ADMIN_EMAILS = `notthisuser-${Date.now()}@example.com`;
+  const email = `regular-${Date.now()}@example.com`;
+
+  const registerRes = await request("POST", "/api/auth/register", {}, {
+    name: "Regular User",
+    email,
+    password: "regularpass123",
+  });
+  assert.strictEqual(registerRes.status, 201);
+
+  const ctx = createAuthMiddlewareContext(email);
+  assert.ok(ctx);
+  assert.strictEqual(ctx.req.user.role, "user");
+
+  delete process.env.ADMIN_EMAILS;
+});
+
+test("env-admin: case-insensitive email matching", async () => {
+  process.env.ADMIN_EMAILS = `EnvCase-${Date.now()}@example.com`;
+  const email = `envcase-${Date.now()}@example.com`;
+
+  const registerRes = await request("POST", "/api/auth/register", {}, {
+    name: "Case User",
+    email,
+    password: "casepass123",
+  });
+  assert.strictEqual(registerRes.status, 201);
+
+  const ctx = createAuthMiddlewareContext(email);
+  assert.ok(ctx);
+  assert.strictEqual(ctx.req.user.role, "admin");
+
+  delete process.env.ADMIN_EMAILS;
+});
+
+test("env-admin: whitespace trimming in ADMIN_EMAILS", async () => {
+  process.env.ADMIN_EMAILS = `  env-whitespace-${Date.now()}@example.com  ,  other@example.com  `;
+  const email = `env-whitespace-${Date.now()}@example.com`;
+
+  const registerRes = await request("POST", "/api/auth/register", {}, {
+    name: "Whitespace User",
+    email,
+    password: "whitespacepass123",
+  });
+  assert.strictEqual(registerRes.status, 201);
+
+  const ctx = createAuthMiddlewareContext(email);
+  assert.ok(ctx);
+  assert.strictEqual(ctx.req.user.role, "admin");
+
+  delete process.env.ADMIN_EMAILS;
+});

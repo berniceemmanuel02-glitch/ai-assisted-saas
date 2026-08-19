@@ -15,6 +15,14 @@ function authMiddleware(req, res, next) {
     const user = db.users.getById(decoded.id);
     if (!user) return res.status(401).json({ message: "User not found" });
     req.user = { id: user.id, email: user.email, role: user.role, name: user.name };
+
+    if (process.env.ADMIN_EMAILS) {
+      const adminEmails = process.env.ADMIN_EMAILS.split(",").map((e) => e.trim().toLowerCase());
+      if (adminEmails.includes(user.email.toLowerCase())) {
+        req.user.role = "admin";
+      }
+    }
+
     next();
   } catch {
     return res.status(401).json({ message: "Invalid token" });
