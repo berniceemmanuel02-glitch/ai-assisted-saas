@@ -1,12 +1,12 @@
 {
-  "name": "ai-assisted-saas",
+  "name": "scholapay",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "School fee management platform for Nigerian schools",
+  "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js",
     "dev": "node backend/server.js",
-    "test": "node --test"
+    "test": "node run.js"
   },
   "keywords": [],
   "author": "",

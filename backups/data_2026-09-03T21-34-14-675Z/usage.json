@@ -1,0 +1,302 @@
+[
+  {
+    "userId": "1788470687829",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470687829",
+    "feature": "feeStructures",
+    "count": 3
+  },
+  {
+    "userId": "1788470688413",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470688413",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470691148",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470691356",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470691148",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470691148",
+    "feature": "feeStructures",
+    "count": 12
+  },
+  {
+    "userId": "1788470691356",
+    "feature": "parentStudents",
+    "count": 6
+  },
+  {
+    "userId": "1788470691356",
+    "feature": "feeStructures",
+    "count": 2
+  },
+  {
+    "userId": "1788470696867",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470697121",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788470697962",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470697962",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698271",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470698271",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470700663",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470700663",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470915369",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470915369",
+    "feature": "feeStructures",
+    "count": 3
+  },
+  {
+    "userId": "1788470915880",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470915880",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470918200",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "feeStructures",
+    "count": 12
+  },
+  {
+    "userId": "1788470918200",
+    "feature": "feeStructures",
+    "count": 2
+  },
+  {
+    "userId": "1788470918200",
+    "feature": "parentStudents",
+    "count": 5
+  },
+  {
+    "userId": "1788470923583",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470923816",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470924206",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788470924904",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470924904",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470925267",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470925267",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470925706",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470925706",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470928599",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470928599",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471243369",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471243369",
+    "feature": "feeStructures",
+    "count": 2
+  },
+  {
+    "userId": "1788471243829",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471243829",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "feeStructures",
+    "count": 12
+  },
+  {
+    "userId": "1788471246372",
+    "feature": "parentStudents",
+    "count": 6
+  },
+  {
+    "userId": "1788471246372",
+    "feature": "feeStructures",
+    "count": 2
+  },
+  {
+    "userId": "1788471250671",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471251096",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471251354",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788471252258",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471252599",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471252599",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471252859",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471252859",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471252859",
+    "feature": "parentStudents",
+    "count": 1
+  }
+]

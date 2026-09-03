@@ -1,522 +1,312 @@
 [
   {
-    "userId": "1786795808598",
-    "feature": "products",
+    "userId": "1788470687829",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786795808598",
-    "feature": "sales",
+    "userId": "1788470687829",
+    "feature": "feeStructures",
     "count": 3
   },
   {
-    "userId": "1786885474643",
-    "feature": "sales",
+    "userId": "1788470688413",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786885574973",
-    "feature": "sales",
+    "userId": "1788470688413",
+    "feature": "feeStructures",
     "count": 1
   },
   {
-    "userId": "1786885730360",
-    "feature": "sales",
+    "userId": "1788470691148",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786886143303",
-    "feature": "sales",
+    "userId": "1788470691356",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786886297499",
-    "feature": "sales",
+    "userId": "1788470691148",
+    "feature": "parentStudents",
     "count": 1
   },
   {
-    "userId": "1786886298094",
-    "feature": "sales",
-    "count": 8
+    "userId": "1788470691148",
+    "feature": "feeStructures",
+    "count": 12
   },
   {
-    "userId": "1786889351942",
-    "feature": "sales",
-    "count": 1
+    "userId": "1788470691356",
+    "feature": "parentStudents",
+    "count": 6
   },
   {
-    "userId": "1786889353726",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786889707644",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786889708400",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786889805533",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786889806245",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786890037249",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786890037840",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786890197222",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786890197786",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786890331812",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786890332481",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786893041499",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786893042139",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786893077077",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786893077692",
-    "feature": "sales",
-    "count": 8
-  },
-  {
-    "userId": "1786952293514",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786952293514",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786952294567",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786952294567",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786960376649",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786960376649",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786960377673",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786960377673",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786961006204",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786961006204",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786961006892",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786961006892",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786961060135",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786961060135",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786961060730",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786961060730",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786963461307",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786963461307",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786963462187",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786963462187",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786964429851",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786964429851",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786964430422",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786964430422",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786965965169",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786965965169",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786965965788",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786965965788",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786966035915",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786966035915",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786966036623",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786966036623",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786966137526",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786966137526",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786966138048",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786966138048",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786966182179",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786966182179",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786966182980",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786966182980",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786966348574",
-    "feature": "customers",
+    "userId": "1788470691356",
+    "feature": "feeStructures",
     "count": 2
   },
   {
-    "userId": "1786966348574",
-    "feature": "products",
+    "userId": "1788470696867",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470697121",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788470697962",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470697962",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698271",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470698271",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470698571",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470700663",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470700663",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470915369",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470915369",
+    "feature": "feeStructures",
+    "count": 3
+  },
+  {
+    "userId": "1788470915880",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470915880",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470918200",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470917967",
+    "feature": "feeStructures",
+    "count": 12
+  },
+  {
+    "userId": "1788470918200",
+    "feature": "feeStructures",
     "count": 2
   },
   {
-    "userId": "1786966348574",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786966348574",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786966349460",
-    "feature": "customers",
-    "count": 1
-  },
-  {
-    "userId": "1786966349460",
-    "feature": "products",
-    "count": 1
-  },
-  {
-    "userId": "1786966349460",
-    "feature": "sales",
+    "userId": "1788470918200",
+    "feature": "parentStudents",
     "count": 5
   },
   {
-    "userId": "1786966349460",
-    "feature": "invoices",
-    "count": 5
+    "userId": "1788470923583",
+    "feature": "students",
+    "count": 1
   },
   {
-    "userId": "1786966409229",
-    "feature": "customers",
+    "userId": "1788470923816",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470924206",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788470924904",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470924904",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470925267",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470925267",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788470925706",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470925706",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788470928599",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788470928599",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471243369",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471243369",
+    "feature": "feeStructures",
     "count": 2
   },
   {
-    "userId": "1786966409229",
-    "feature": "products",
+    "userId": "1788471243829",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471243829",
+    "feature": "feeStructures",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "students",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "parentStudents",
+    "count": 1
+  },
+  {
+    "userId": "1788471246080",
+    "feature": "feeStructures",
+    "count": 12
+  },
+  {
+    "userId": "1788471246372",
+    "feature": "parentStudents",
+    "count": 6
+  },
+  {
+    "userId": "1788471246372",
+    "feature": "feeStructures",
     "count": 2
   },
   {
-    "userId": "1786966409229",
-    "feature": "sales",
+    "userId": "1788471250671",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786966409229",
-    "feature": "invoices",
+    "userId": "1788471251096",
+    "feature": "feeStructures",
     "count": 1
   },
   {
-    "userId": "1786966409816",
-    "feature": "customers",
+    "userId": "1788471251354",
+    "feature": "students",
+    "count": 20
+  },
+  {
+    "userId": "1788471252258",
+    "feature": "feeStructures",
     "count": 1
   },
   {
-    "userId": "1786966409816",
-    "feature": "products",
+    "userId": "1788471252599",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786966409816",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786966409816",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786966521874",
-    "feature": "customers",
-    "count": 2
-  },
-  {
-    "userId": "1786966521874",
-    "feature": "products",
-    "count": 2
-  },
-  {
-    "userId": "1786966521874",
-    "feature": "sales",
+    "userId": "1788471252599",
+    "feature": "feeStructures",
     "count": 1
   },
   {
-    "userId": "1786966521874",
-    "feature": "invoices",
+    "userId": "1788471252859",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786966522688",
-    "feature": "customers",
+    "userId": "1788471252859",
+    "feature": "feeStructures",
     "count": 1
   },
   {
-    "userId": "1786966522688",
-    "feature": "products",
+    "userId": "1788471252859",
+    "feature": "parentStudents",
     "count": 1
   },
   {
-    "userId": "1786966522688",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786966522688",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786967130250",
-    "feature": "customers",
-    "count": 2
-  },
-  {
-    "userId": "1786967130250",
-    "feature": "products",
-    "count": 2
-  },
-  {
-    "userId": "1786967130250",
-    "feature": "sales",
+    "userId": "1788471255009",
+    "feature": "students",
     "count": 1
   },
   {
-    "userId": "1786967130250",
-    "feature": "invoices",
+    "userId": "1788471255009",
+    "feature": "feeStructures",
     "count": 1
-  },
-  {
-    "userId": "1786967131186",
-    "feature": "customers",
-    "count": 1
-  },
-  {
-    "userId": "1786967131186",
-    "feature": "products",
-    "count": 1
-  },
-  {
-    "userId": "1786967131186",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786967131186",
-    "feature": "invoices",
-    "count": 5
-  },
-  {
-    "userId": "1786967217551",
-    "feature": "customers",
-    "count": 2
-  },
-  {
-    "userId": "1786967217551",
-    "feature": "products",
-    "count": 2
-  },
-  {
-    "userId": "1786967217551",
-    "feature": "sales",
-    "count": 1
-  },
-  {
-    "userId": "1786967217551",
-    "feature": "invoices",
-    "count": 1
-  },
-  {
-    "userId": "1786967218156",
-    "feature": "customers",
-    "count": 1
-  },
-  {
-    "userId": "1786967218156",
-    "feature": "products",
-    "count": 1
-  },
-  {
-    "userId": "1786967218156",
-    "feature": "sales",
-    "count": 5
-  },
-  {
-    "userId": "1786967218156",
-    "feature": "invoices",
-    "count": 5
   }
 ]

@@ -1,7 +1,13 @@
 const jwt = require("jsonwebtoken");
 const db = require("../data/store");
 
-const JWT_SECRET = process.env.JWT_SECRET || "salesbook-secret-key";
+function getJwtSecret() {
+  const secret = process.env.JWT_SECRET;
+  if (!secret || !secret.trim()) {
+    throw new Error("JWT_SECRET is not configured");
+  }
+  return secret;
+}
 
 function authMiddleware(req, res, next) {
   const header = req.headers.authorization;
@@ -11,10 +17,10 @@ function authMiddleware(req, res, next) {
   if (!token) return res.status(401).json({ message: "No token provided" });
 
   try {
-    const decoded = jwt.verify(token, JWT_SECRET);
+    const decoded = jwt.verify(token, getJwtSecret());
     const user = db.users.getById(decoded.id);
     if (!user) return res.status(401).json({ message: "User not found" });
-    req.user = { id: user.id, email: user.email, role: user.role, name: user.name };
+    req.user = { id: user.id, email: user.email, role: user.role, name: user.name, schoolId: user.schoolId };
 
     if (process.env.ADMIN_EMAILS) {
       const adminEmails = process.env.ADMIN_EMAILS.split(",").map((e) => e.trim().toLowerCase());
@@ -34,4 +40,4 @@ function adminOnly(req, res, next) {
   next();
 }
 
-module.exports = { authMiddleware, adminOnly, JWT_SECRET };
+module.exports = { authMiddleware, adminOnly, getJwtSecret };

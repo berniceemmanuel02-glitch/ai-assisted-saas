@@ -1,8 +1,8 @@
-const API_BASE = "https://ai-assisted-saas-ypgu.onrender.com";
+const API_BASE = "";
 
 const api = {
   async request(path, options = {}) {
-    const token = localStorage.getItem("salesbook_token");
+    const token = localStorage.getItem("scholapay_token");
     const headers = {
       "Content-Type": "application/json",
       ...(options.headers || {}),
