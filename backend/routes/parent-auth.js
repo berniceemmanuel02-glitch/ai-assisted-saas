@@ -4,16 +4,18 @@ const db = require("../data/store");
 const { getJwtSecret } = require("../middleware/auth");
 const { OAuth2Client } = require("google-auth-library");
 
+const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "629920402195-ds5th1lqmqjrnr85899l13ikkqhgohng.apps.googleusercontent.com";
+
 const router = require("express").Router();
 
 router.get("/config", (req, res) => {
   res.json({
-    googleClientId: process.env.GOOGLE_CLIENT_ID,
+    googleClientId: GOOGLE_CLIENT_ID,
   });
 });
 
 const googleClient = new OAuth2Client(
-  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_ID || GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
   process.env.GOOGLE_REDIRECT_URI
 );
@@ -210,7 +212,7 @@ router.get("/google/callback", async (req, res) => {
       { expiresIn: "7d" }
     );
 
-    const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5000";
+    const frontendUrl = process.env.FRONTEND_URL || `${req.protocol}://${req.get("host")}`;
 
     res.redirect(
       `${frontendUrl}/?google_token=${encodeURIComponent(token)}`

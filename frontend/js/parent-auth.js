@@ -55,55 +55,30 @@ function showParentLogin() {
 
 async function handleGoogleLogin() {
   const alertEl = document.getElementById("parent-auth-alert");
-  const btn = event?.currentTarget;
-
-  if (!btn || typeof google === "undefined" || !google.accounts || !google.accounts.id) {
-    alertEl.textContent = "Google Sign-In is not available. Please try again.";
-    alertEl.style.display = "block";
-    return;
-  }
-
-  btn.disabled = true;
-  btn.setAttribute("data-original-html", btn.innerHTML);
-  btn.innerHTML = "Signing in...";
 
   try {
     if (!window.GOOGLE_CLIENT_ID) {
       const config = await api.get("/api/parent-auth/config");
-      window.GOOGLE_CLIENT_ID = config.googleClientId;
+      window.GOOGLE_CLIENT_ID = config.googleClientId || config.client_id;
     }
 
     if (!window.GOOGLE_CLIENT_ID) {
       throw new Error("Google Client ID not configured");
     }
 
-    google.accounts.id.initialize({
-      client_id: window.GOOGLE_CLIENT_ID,
-      callback: async (response) => {
-        try {
-          const data = await api.post("/api/parent-auth/google/verify", {
-            credential: response.credential,
-          });
-          localStorage.setItem("scholapay_token", data.token);
-          localStorage.setItem("scholapay_user", JSON.stringify(data.user));
-          parentUser = data.user;
-          showParentApp();
-        } catch (err) {
-          alertEl.textContent = err.message || "Google login failed";
-          alertEl.style.display = "block";
-          btn.disabled = false;
-          btn.innerHTML = btn.getAttribute("data-original-html") || btn.innerHTML;
-        }
-      },
-      auto_select: false,
-    });
+    const redirectUri = window.location.origin + "/api/parent-auth/google/callback";
+    const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?` +
+      `client_id=${encodeURIComponent(window.GOOGLE_CLIENT_ID)}` +
+      `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+      `&response_type=code` +
+      `&scope=openid%20email%20profile` +
+      `&access_type=offline` +
+      `&prompt=select_account`;
 
-    google.accounts.id.prompt();
+    window.location.href = authUrl;
   } catch (err) {
-    alertEl.textContent = err.message || "Failed to initialize Google login";
+    alertEl.textContent = err.message || "Failed to start Google login";
     alertEl.style.display = "block";
-    btn.disabled = false;
-    btn.innerHTML = btn.getAttribute("data-original-html") || btn.innerHTML;
   }
 }
 
