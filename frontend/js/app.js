@@ -85,14 +85,56 @@ function showLanding() {
 function renderLanding() {
   const main = document.getElementById("main-content");
   main.innerHTML = `
-    <div class="hero">
-      <h1>Scholapay</h1>
-      <p>The modern way to manage school fees in Nigeria. Collect payments, track students, and simplify billing for your school.</p>
-      <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center;">
-        <button class="btn btn-primary" onclick="showLogin()">School Admin</button>
-        <button class="btn btn-outline" onclick="showParentLogin()">Parent Portal</button>
-      </div>
-    </div>
+     <section class="landing-hero">
+       <img class="landing-hero-img" src="assets/hero-image.jpg" alt="Scholapay - School fee management" />
+
+       <div class="landing-hero-overlay"></div>
+       <div class="landing-container">
+         <header class="landing-header">
+           <div class="landing-logo">
+             <span class="logo-mark">SP</span>
+             <span class="logo-text">Scholapay</span>
+           </div>
+         </header>
+
+         <div class="landing-hero-content">
+           <h1 class="landing-headline">School fees, paid simply.</h1>
+           <p class="landing-description">
+             Schools record students and fees. Parents see balances, pay online and print receipts.
+           </p>
+           <div class="landing-cta">
+             <button class="btn btn-primary btn-lg" onclick="showLogin()">Admin login</button>
+             <button class="btn btn-outline btn-lg" onclick="location.hash='#parent-login'; showParentLogin()">Parent login</button>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="landing-features">
+       <div class="features-grid">
+         <article class="feature-card">
+           <div class="feature-icon">🎓</div>
+           <h3 class="feature-title">Students & fees</h3>
+           <p class="feature-description">Add students, set up fee structures per class and term, and track outstanding balances automatically.</p>
+         </article>
+         <article class="feature-card">
+           <div class="feature-icon">💳</div>
+           <h3 class="feature-title">Online payments</h3>
+           <p class="feature-description">Parents pay securely via Paystack or Flutterwave — cards, bank transfer, or USSD — with instant confirmation.</p>
+         </article>
+         <article class="feature-card">
+           <div class="feature-icon">🧾</div>
+           <h3 class="feature-title">Printable receipts</h3>
+           <p class="feature-description">Auto-generated official receipts for every payment. Download, print, or share instantly.</p>
+         </article>
+       </div>
+     </section>
+
+     <footer class="landing-footer">
+       <div class="landing-container">
+         <p class="footer-text">Scholapay — School fee management for Nigerian schools</p>
+       </div>
+     </footer>
   `;
 }
 
