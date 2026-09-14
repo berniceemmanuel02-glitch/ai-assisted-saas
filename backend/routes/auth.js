@@ -13,7 +13,7 @@ router.post("/register", async (req, res) => {
       return res.status(400).json({ message: "Name, email and password are required" });
     }
 
-    if (db.users.getByEmail(email)) {
+    if (await db.users.getByEmail(email)) {
       return res.status(400).json({ message: "Email already registered" });
     }
 
@@ -61,7 +61,7 @@ router.post("/login", async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const user = db.users.getByEmail(email);
+    const user = await db.users.getByEmail(email);
     if (!user) return res.status(400).json({ message: "Invalid credentials" });
 
     const validPassword = await bcrypt.compare(password, user.password);
