@@ -86,10 +86,12 @@ router.get("/me", require("../middleware/auth").authMiddleware, (req, res) => {
   res.json({ user: req.user });
 });
 router.get("/google", (req, res) => {
+  const redirectUri = `${req.protocol}://${req.get("host")}/api/parent-auth/google/callback`;
   const url = googleClient.generateAuthUrl({
     access_type: "offline",
     scope: ["openid", "email", "profile"],
     prompt: "select_account",
+    redirect_uri: redirectUri,
   });
 
   res.redirect(url);
@@ -165,7 +167,10 @@ router.get("/google/callback", async (req, res) => {
       return res.status(400).send("Google login was cancelled or failed.");
     }
 
-    const { tokens } = await googleClient.getToken(code);
+    const { tokens } = await googleClient.getToken({
+      code,
+      redirectUri: `${req.protocol}://${req.get("host")}/api/parent-auth/google/callback`,
+    });
     googleClient.setCredentials(tokens);
 
     const ticket = await googleClient.verifyIdToken({
