@@ -1,16 +1,5 @@
 [
   {
-    "id": "1787299810283",
-    "schoolId": "1787299775215",
-    "name": "Tuition Fee",
-    "amount": 50000,
-    "frequency": "termly",
-    "term": "First Term",
-    "className": "JSS1",
-    "createdAt": "2026-08-21T08:10:10.283Z",
-    "updatedAt": "2026-08-21T08:10:10.283Z"
-  },
-  {
     "id": "1787301014869",
     "schoolId": "1787300772579",
     "name": "Tuition Fee",

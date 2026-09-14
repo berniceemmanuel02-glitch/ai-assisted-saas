@@ -1,18 +1,5 @@
 [
   {
-    "id": "1787299798909",
-    "schoolId": "1787299775215",
-    "firstName": "John",
-    "lastName": "Doe",
-    "admissionNumber": "ADM001",
-    "className": "JSS1",
-    "parentName": "Jane Doe",
-    "parentEmail": "jane@example.com",
-    "parentPhone": "08098765432",
-    "createdAt": "2026-08-21T08:09:58.909Z",
-    "updatedAt": "2026-08-21T08:09:58.909Z"
-  },
-  {
     "id": "1787301001709",
     "schoolId": "1787300772579",
     "firstName": "John",

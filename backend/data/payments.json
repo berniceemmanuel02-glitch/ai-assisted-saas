@@ -1,18 +1,5 @@
 [
   {
-    "id": "1787299822614",
-    "schoolId": "1787299775215",
-    "studentId": "1787299798909",
-    "feeStructureId": "1787299810283",
-    "amount": 50000,
-    "method": "paystack",
-    "status": "pending",
-    "reference": "SP-MT2O61AU",
-    "paidAt": null,
-    "createdAt": "2026-08-21T08:10:22.614Z",
-    "updatedAt": "2026-08-21T08:10:22.614Z"
-  },
-  {
     "id": "1787301014886",
     "schoolId": "1787300772579",
     "studentId": "1787301001709",

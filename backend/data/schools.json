@@ -1,18 +1,5 @@
 [
   {
-    "id": "1787299775215",
-    "name": "Updated Test School",
-    "address": "123 School Road",
-    "city": "Lagos",
-    "state": "Lagos",
-    "email": "school@test.com",
-    "phone": "08012345678",
-    "logo": null,
-    "subscriptionId": null,
-    "createdAt": "2026-08-21T08:09:35.215Z",
-    "updatedAt": "2026-08-21T08:11:33.262Z"
-  },
-  {
     "id": "1787300772579",
     "name": "School Admin's School",
     "address": "",
