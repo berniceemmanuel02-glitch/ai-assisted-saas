@@ -62,9 +62,13 @@ router.post("/login", async (req, res) => {
     const { email, password } = req.body;
 
     const user = await db.users.getByEmail(email);
+    console.log("[LOGIN DIAG] user found:", !!user);
     if (!user) return res.status(400).json({ message: "Invalid credentials" });
 
+    console.log("[LOGIN DIAG] user role:", user.role);
+    console.log("[LOGIN DIAG] password hash exists:", !!user.password);
     const validPassword = await bcrypt.compare(password, user.password);
+    console.log("[LOGIN DIAG] bcrypt.compare result:", validPassword);
     if (!validPassword) return res.status(400).json({ message: "Invalid credentials" });
 
     const token = jwt.sign({ id: user.id, email: user.email, role: user.role }, getJwtSecret(), { expiresIn: "7d" });
