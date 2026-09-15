@@ -130,6 +130,7 @@ async function renderDashboard(container) {
           <button class="btn btn-primary" onclick="location.hash='students'">Add Student</button>
           <button class="btn btn-accent" onclick="location.hash='fees'">Create Fee</button>
           <button class="btn btn-success" onclick="location.hash='payments'">Record Payment</button>
+          <button class="btn btn-outline" onclick="showInviteModal()">Send Admin Invite</button>
         </div>
       </div>
     `;

@@ -16,6 +16,7 @@ const FILES = {
   sales: path.join(DATA_DIR, "sales.json"),
   salesInvoices: path.join(DATA_DIR, "sales-invoices.json"),
   parentStudents: path.join(DATA_DIR, "parent-students.json"),
+  invitations: path.join(DATA_DIR, "invitations.json"),
 };
 
 let writeQueue = Promise.resolve();
@@ -225,7 +226,7 @@ if (usePg) {
         return res.rows[0] ? mapUser(res.rows[0]) : undefined;
       },
       getByEmail: async (email) => {
-        const res = await pool.query("SELECT * FROM users WHERE email = $1", [email]);
+        const res = await pool.query("SELECT * FROM users WHERE LOWER(email) = LOWER($1)", [email]);
         return res.rows[0] ? mapUser(res.rows[0]) : undefined;
       },
       getBySchoolId: async (schoolId) => {
@@ -638,6 +639,46 @@ if (usePg) {
         return res.rowCount > 0;
       },
     },
+    invitations: {
+      getAll: async () => {
+        const res = await pool.query("SELECT * FROM invitations");
+        return res.rows;
+      },
+      getById: async (id) => {
+        const res = await pool.query("SELECT * FROM invitations WHERE id = $1", [id]);
+        return res.rows[0] || undefined;
+      },
+      getByTokenHash: async (tokenHash) => {
+        const res = await pool.query("SELECT * FROM invitations WHERE token_hash = $1 AND used = false AND expires_at > NOW()", [tokenHash]);
+        return res.rows[0] || undefined;
+      },
+      getByEmail: async (email) => {
+        const res = await pool.query("SELECT * FROM invitations WHERE LOWER(email) = LOWER($1)", [email]);
+        return res.rows;
+      },
+      getBySchoolId: async (schoolId) => {
+        const res = await pool.query("SELECT * FROM invitations WHERE school_id = $1", [schoolId]);
+        return res.rows;
+      },
+      create: async (invitation) => {
+        const res = await pool.query(
+          `INSERT INTO invitations (id, email, school_id, inviter_id, token_hash, expires_at, used, created_at, updated_at)
+           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+           RETURNING *`,
+          [invitation.id, invitation.email, invitation.schoolId, invitation.inviterId, invitation.tokenHash, invitation.expiresAt, invitation.used || false, invitation.createdAt, invitation.updatedAt || invitation.createdAt]
+        );
+        return res.rows[0];
+      },
+      update: async (id, data) => {
+        const res = await pool.query(
+          `UPDATE invitations SET email = $1, school_id = $2, inviter_id = $3, token_hash = $4, expires_at = $5, used = $6, updated_at = $7
+           WHERE id = $8
+           RETURNING *`,
+          [data.email, data.schoolId, data.inviterId, data.tokenHash, data.expiresAt, data.used, data.updatedAt || new Date().toISOString(), id]
+        );
+        return res.rows[0] || null;
+      },
+    },
   };
 
   module.exports = db;
@@ -646,7 +687,7 @@ if (usePg) {
     users: {
       getAll: () => load(FILES.users),
       getById: (id) => load(FILES.users).find((u) => u.id === id),
-      getByEmail: (email) => load(FILES.users).find((u) => u.email === email),
+      getByEmail: (email) => load(FILES.users).find((u) => u.email.toLowerCase() === email.toLowerCase()),
       getBySchoolId: (schoolId) => load(FILES.users).filter((u) => u.schoolId === schoolId),
       create: (user) => {
         const users = load(FILES.users);
@@ -944,6 +985,27 @@ if (usePg) {
         const items = load(FILES.parentStudents).filter((p) => p.studentId !== studentId);
         save(FILES.parentStudents, items);
         return true;
+      },
+    },
+    invitations: {
+      getAll: () => load(FILES.invitations),
+      getById: (id) => load(FILES.invitations).find((i) => i.id === id),
+      getByTokenHash: (tokenHash) => load(FILES.invitations).find((i) => i.tokenHash === tokenHash && !i.used && i.expiresAt > new Date().toISOString()),
+      getByEmail: (email) => load(FILES.invitations).filter((i) => i.email.toLowerCase() === email.toLowerCase()),
+      getBySchoolId: (schoolId) => load(FILES.invitations).filter((i) => i.schoolId === schoolId),
+      create: (invitation) => {
+        const items = load(FILES.invitations);
+        items.push(invitation);
+        save(FILES.invitations, items);
+        return invitation;
+      },
+      update: (id, data) => {
+        const items = load(FILES.invitations);
+        const idx = items.findIndex((i) => i.id === id);
+        if (idx === -1) return null;
+        items[idx] = { ...items[idx], ...data };
+        save(FILES.invitations, items);
+        return items[idx];
       },
     },
   };

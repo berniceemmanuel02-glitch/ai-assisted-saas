@@ -87,7 +87,6 @@ function renderLanding() {
   main.innerHTML = `
      <section class="landing-hero">
        <img class="landing-hero-img" src="assets/hero-image.jpg" alt="Scholapay - School fee management" />
-
        <div class="landing-hero-overlay"></div>
        <div class="landing-container">
          <header class="landing-header">
@@ -105,6 +104,44 @@ function renderLanding() {
            <div class="landing-cta">
              <button class="btn btn-primary btn-lg" onclick="showLogin()">Admin login</button>
              <button class="btn btn-outline btn-lg" onclick="location.hash='#parent-login'; showParentLogin()">Parent login</button>
+           </div>
+         </div>
+       </div>
+
+       <div class="dashboard-preview">
+         <div class="dashboard-card">
+           <div class="dashboard-header">
+             <span class="dashboard-title">Fee Summary</span>
+             <span class="dashboard-school">Lincoln Heights School</span>
+           </div>
+           <div class="dashboard-grid">
+             <div class="dashboard-stat">
+               <div class="dashboard-stat-label">Total Fees</div>
+               <div class="dashboard-stat-value">₦250,000</div>
+             </div>
+             <div class="dashboard-stat">
+               <div class="dashboard-stat-label">Paid</div>
+               <div class="dashboard-stat-value dashboard-stat-paid">₦180,000</div>
+             </div>
+             <div class="dashboard-stat">
+               <div class="dashboard-stat-label">Balance</div>
+               <div class="dashboard-stat-value dashboard-stat-balance">₦70,000</div>
+             </div>
+           </div>
+           <div class="dashboard-section">
+             <div class="dashboard-section-title">Payment History</div>
+             <div class="dashboard-payment-row">
+               <span class="dashboard-payment-desc">Tuition Fee - Term 1</span>
+               <span class="dashboard-payment-status">✓ Paid</span>
+             </div>
+             <div class="dashboard-payment-row">
+               <span class="dashboard-payment-desc">Tuition Fee - Term 2</span>
+               <span class="dashboard-payment-status">✓ Paid</span>
+             </div>
+             <div class="dashboard-payment-row">
+               <span class="dashboard-payment-desc">Exam Fee - Term 3</span>
+               <span class="dashboard-payment-status pending">Pending</span>
+             </div>
            </div>
          </div>
        </div>
@@ -292,7 +329,7 @@ function init() {
       document.getElementById("sidebar").classList.toggle("open");
     });
   }
-  window.addEventListener("hashchange", () => {
+   window.addEventListener("hashchange", () => {
     const hash = location.hash.replace("#", "");
     if (hash === "parent-dashboard" || hash.startsWith("parent-dashboard")) {
       if (!parentUser) {
@@ -300,6 +337,8 @@ function init() {
       }
     } else if (hash === "parent-login") {
       showParentLogin();
+    } else if (hash === "admin-invite") {
+      renderAdminInvite();
     } else {
       if (parentUser) {
         parentUser = null;
@@ -309,13 +348,185 @@ function init() {
     }
   });
   const hash = location.hash.replace("#", "");
-  if (hash === "parent-dashboard" || hash.startsWith("parent-dashboard")) {
+  if (window.location.pathname.startsWith("/admin/accept-invite")) {
+    renderAdminInvite();
+  } else if (hash === "parent-dashboard" || hash.startsWith("parent-dashboard")) {
     checkParentAuth();
   } else if (hash === "parent-login") {
     showParentLogin();
+  } else if (hash === "admin-invite") {
+    renderAdminInvite();
   } else {
     checkAuth();
   }
+}
+
+function getQueryParam(name) {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(name);
+}
+
+function isPathRoute() {
+  return window.location.hash === "" && window.location.pathname !== "/" && window.location.pathname !== "";
+}
+
+async function renderAdminInvite() {
+  const main = document.getElementById("main-content");
+  document.getElementById("sidebar").style.display = "none";
+  document.getElementById("header").style.display = "none";
+
+  const token = getQueryParam("token");
+  if (!token) {
+    main.innerHTML = `
+      <div class="auth-container">
+        <div class="card">
+          <h2>Invalid Invitation</h2>
+          <p style="color:var(--danger);">No invitation token provided.</p>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  try {
+    const data = await api.get(`/api/invitations/${token}`);
+    if (data.emailExists) {
+      main.innerHTML = `
+        <div class="auth-container">
+          <div class="card">
+            <h2>Account Already Exists</h2>
+            <p style="color:var(--text-muted);">An account with this email already exists. Please log in instead.</p>
+            <div style="text-align:center; padding:1rem;">
+              <button class="btn btn-primary" onclick="location.hash='parent-login'; showParentLogin()">Parent Login</button>
+              <button class="btn btn-outline" onclick="showLogin()" style="margin-left:0.5rem;">Admin Login</button>
+            </div>
+          </div>
+        </div>
+      `;
+      return;
+    }
+
+    const inviteeEmail = data.email;
+
+    main.innerHTML = `
+      <div class="auth-container">
+        <div class="card">
+          <h2>Accept Admin Invitation</h2>
+          <div id="invite-alert" class="alert alert-error" style="display:none;"></div>
+          <form id="invite-form">
+            <div class="form-group">
+              <label>Email (invited)</label>
+              <input type="email" id="invite-email" value="${inviteeEmail}" readonly style="background:#f1f5f9; cursor:not-allowed;">
+            </div>
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" id="invite-name" required placeholder="Your full name" minlength="2">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" id="invite-password" required placeholder="••••••••" minlength="6">
+            </div>
+            <div class="form-group">
+              <label>Confirm Password</label>
+              <input type="password" id="invite-confirm-password" required placeholder="••••••••" minlength="6">
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Create Account</button>
+          </div>
+          <div class="auth-footer">
+            Already have an account? <a onclick="showLogin()">Login</a>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.getElementById("invite-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const alertEl = document.getElementById("invite-alert");
+      const name = document.getElementById("invite-name").value;
+      const password = document.getElementById("invite-password").value;
+      const confirmPassword = document.getElementById("invite-confirm-password").value;
+
+      if (password !== confirmPassword) {
+        alertEl.textContent = "Passwords do not match.";
+        alertEl.style.display = "block";
+        return;
+      }
+
+      if (password.length < 6) {
+        alertEl.textContent = "Password must be at least 6 characters.";
+        alertEl.style.display = "block";
+        return;
+      }
+
+      try {
+        const res = await api.post(`/api/invitations/${token}/accept`, { name, password, confirmPassword });
+        localStorage.setItem("scholapay_token", res.token);
+        localStorage.setItem("scholapay_user", JSON.stringify(res.user));
+        currentUser = res.user;
+        await loadSchool();
+      } catch (err) {
+        alertEl.textContent = err.message || "Failed to create account.";
+        alertEl.style.display = "block";
+      }
+    });
+  } catch (err) {
+    main.innerHTML = `
+      <div class="auth-container">
+        <div class="card">
+          <h2>Invitation Error</h2>
+          <p style="color:var(--danger);">${escapeHtml(err.message || "This invitation link is invalid or has expired.")}</p>
+          <div style="text-align:center; padding:1rem;">
+            <button class="btn btn-primary" onclick="showLogin()">Admin Login</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
+
+async function showInviteModal() {
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay active";
+  modal.innerHTML = `
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Invite Admin to Your School</h3>
+        <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="invite-alert" class="alert alert-error" style="display:none;"></div>
+        <form id="invite-form">
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" id="invite-email" required placeholder="admin@school.com">
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Invitation Link</button>
+        </form>
+        <div id="invite-result" style="display:none; margin-top:1rem; padding:1rem; background:var(--bg); border-radius:0.5rem;">
+          <p style="font-weight:600; margin-bottom:0.5rem;">Invitation link generated:</p>
+          <p style="word-break:break-all; font-size:0.9rem;" id="invite-link"></p>
+        </div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  document.getElementById("invite-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("invite-email").value;
+    const alertEl = document.getElementById("invite-alert");
+    const resultDiv = document.getElementById("invite-result");
+
+    try {
+      const res = await api.post("/api/invitations", { email });
+      alertEl.style.display = "none";
+      resultDiv.style.display = "block";
+      document.getElementById("invite-link").textContent = res.inviteLink;
+    } catch (err) {
+      alertEl.textContent = err.message || "Failed to create invitation.";
+      alertEl.style.display = "block";
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", init);

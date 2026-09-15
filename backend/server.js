@@ -121,6 +121,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "frontend", "index.html"));
 });
 
+app.get("/admin/accept-invite", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "frontend", "index.html"));
+});
+
 app.use("/api/health", require("./routes/health"));
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/parent-auth", require("./routes/parent-auth"));
@@ -130,6 +134,7 @@ app.use("/api/fee-structures", require("./routes/fee-structures"));
 app.use("/api/payments", require("./routes/payments").router);
 app.use("/api/receipts", require("./routes/receipts"));
 app.use("/api/parents", require("./routes/parents"));
+app.use("/api/invitations", require("./routes/invitations"));
 app.use("/api/dashboard", require("./routes/dashboard"));
 app.use("/api/plans", require("./routes/plans"));
 app.use("/api/subscriptions", require("./routes/subscriptions"));
